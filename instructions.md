@@ -2,7 +2,7 @@
 
 ## The tests
 
-There are [57 tests](../docs/CNFCertification-1.0.md) included in the CNF Certification. These tests are classified as Essential, Normal, or Bonus. They are also organized into 7 categories: 
+There are [57 tests](docs/CNFCertification-1.0.md) included in the CNF Certification. These tests are classified as Essential, Normal, or Bonus. They are also organized into 7 categories: 
 - Compatibility, Installability, and Upgradability
 - Configuration
 - Security
