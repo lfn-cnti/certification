@@ -49,6 +49,15 @@ NOTE: The results file and the config file are required in the submission result
 <!--1. Pull down an example CNF configuration to try: curl -o cnf-testsuite.yml https://raw.githubusercontent.com/cncf/cnf-testsuite/main/example-cnfs/coredns/cnf-testsuite.yml-->
 
 
-
-
 ## Uploading
+
+Prepare a PR to [https://github.com/cncf/cnf-conformance](https://github.com/cncf/cnf-conformance).
+
+Here are [directions](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork) to prepare a pull request from a fork.
+
+The PR title should look like this: `CNF Certification results for vX.Y/DIR`
+
+In the PR title above, the `X.Y` refers to the CNF Certification major and minor version, and `DIR` is a short subdirectory name to hold the results for your product.  Examples
+
+- `CNF Certification results for v1.0/mychargingapp`
+- `CNF Certification results for v1.0/fancyfirewall`.
