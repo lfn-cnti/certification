@@ -77,3 +77,49 @@ your results.
 
 
 
+### Contents of the PR
+
+If submitting test results for multiple versions, submit a PR for each product, ie. one PR for vX.Y results and a second PR for vX.Z
+
+Your PR should have the subdirecty (as mentioned above) with the following files:
+
+- vX.Y/DIR/README.md: A script or human-readable description of how to reproduce
+your results.
+- vX.Y/DIR/cnf-certification-results-YYYY-MMDD-HHMMSS-NNN.yml log output (from CNF Test Suite).
+<!-- - vX.Y/DIR/test.log: Test log output (from CNF Certification).-->
+- vX.Y/DIR/PRODUCT.yaml: See below.
+
+#### PRODUCT.yaml
+
+This file describes your product. It is YAML formatted with the following root-level fields. Please fill in as appropriate.
+
+| Field               | Description |
+| ------------------- | ----------- |
+| `vendor`            | Name of the legal entity that is certifying. This entity must have a signed participation form on file with the CNCF  |
+| `name`              | Name of the product being certified. |
+| `version`           | The version of the product being certified. |
+| `website_url`       | URL to the product information website |
+| `repo_url`          | If your product is open source, this field is necessary to point to the primary GitHub repo containing the source. It's OK if this is a mirror. OPTIONAL  |
+| `documentation_url` | URL to the product documentation |
+| `product_logo_url`  | URL to the product's logo, (must be in SVG, AI or EPS format -- not a PNG -- and include the product name). OPTIONAL. If not supplied, we'll use your company logo. Please see logo [guidelines](https://github.com/cncf/landscape#logos) |
+| `type`              | What kind of application? Eg. Firewall |
+| `description` | One sentence description of your offering |
+
+Examples below are for a fictional DHCP-proxy CNF implementation called _Turbo DHCP-Proxy_ produced by a company named _Yoyodyne_.
+
+```yaml
+vendor: Yoyodyne
+name: Turbo DHCP-Proxy
+version: v1.7.4
+website_url: https://yoyo.dyne/turbo-dhcp-proxy
+repo_url: https://github.com/yoyo.dyne/turbo-dhcp-proxy
+documentation_url: https://yoyo.dyne/turbo-dhcp-proxy/docs
+product_logo_url: https://yoyo.dyne/assets/turbo-dhcp-proxy.svg
+type: dhcp-proxy
+description: "The Yoyodyne Turbo DHCP-Proxy is a superb DHCP proxy 
+              for all of your proxying needs."
+```
+
+
+
+
