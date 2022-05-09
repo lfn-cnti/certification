@@ -1,7 +1,15 @@
 # How to submit CNF Certification results
 
 ## The tests
-The standard set of CNF Certification tests is currently those defined by the [cnf-certification] (TBD) tag in the [CNF Test Suite](https://github.com/cncf/cnf-testsuite/blob/main/docs/LIST_OF_TESTS.md).
+
+There are [57 tests](https://github.com/cncf/cnf-conformance/blob/main/docs/LIST_OF_TESTS.md) included in the CNF Certification. These tests are classified as Essential, Normal, or Bonus. They are also organized into 7 categories: 
+- Compatibility, Installability, and Upgradability
+- Configuration
+- Security
+- State
+- Microservice
+- Observability
+- Reliability, Resilience and Availability
 
 ## Prereqs
 
