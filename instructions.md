@@ -60,7 +60,7 @@ The PR title should look like this: `CNF Certification results for vX.Y/DIR`
 In the PR title above, the `X.Y` refers to the CNF Certification major and minor version, and `DIR` is a short subdirectory name to hold the results for your product.  Examples
 
 - `CNF Certification results for v1.0/mychargingapp`
-- `CNF Certification results for v1.0/fancyfirewall`.
+- `CNF Certification results for v1.2/fancyfirewall`
 
 
 ### Contents of the PR
@@ -72,22 +72,9 @@ Your PR should have the subdirecty (as mentioned above) with the following files
 - vX.Y/DIR/README.md: A script or human-readable description of how to reproduce
 your results.
 - vX.Y/DIR/cnf-certification-results-YYYY-MMDD-HHMMSS-NNN.yml log output (from CNF Test Suite).
-<!-- - vX.Y/DIR/test.log: Test log output (from CNF Certification).-->
 - vX.Y/DIR/PRODUCT.yaml: See below.
-
-
-
-### Contents of the PR
-
-If submitting test results for multiple versions, submit a PR for each product, ie. one PR for vX.Y results and a second PR for vX.Z
-
-Your PR should have the subdirecty (as mentioned above) with the following files:
-
-- vX.Y/DIR/README.md: A script or human-readable description of how to reproduce
-your results.
-- vX.Y/DIR/cnf-certification-results-YYYY-MMDD-HHMMSS-NNN.yml log output (from CNF Test Suite).
 <!-- - vX.Y/DIR/test.log: Test log output (from CNF Certification).-->
-- vX.Y/DIR/PRODUCT.yaml: See below.
+
 
 #### PRODUCT.yaml
 
