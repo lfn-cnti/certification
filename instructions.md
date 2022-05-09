@@ -70,9 +70,9 @@ If submitting test results for multiple versions, submit a PR for each product, 
 Your PR should have the subdirecty (as mentioned above) with the following files:
 
 - vX.Y/DIR/README.md: A script or human-readable description of how to reproduce
-your results.
-- vX.Y/DIR/cnf-certification-results-YYYY-MMDD-HHMMSS-NNN.yml log output (from CNF Test Suite).
-- vX.Y/DIR/PRODUCT.yaml: See below.
+your results
+- vX.Y/DIR/cnf-certification-results-YYYY-MMDD-HHMMSS-NNN.yml log output (from CNF Test Suite)
+- vX.Y/DIR/PRODUCT.yaml: See below
 <!-- - vX.Y/DIR/test.log: Test log output (from CNF Certification).-->
 
 
