@@ -4,7 +4,7 @@ The CNF Certification program provides a way for open and closed source network 
 
 ## Why Certification Matters
 
-With such a wide array of applications being developed today, workload certification tests help ensure that developers can follow cloud native best practices when building greenfield applications and/or modernizing existing applications. A certified application provides the following guarantees:
+With such a wide array of applications being developed today, workload certification tests help ensure that developers can follow cloud native best practices when building greenfield applications and/or modernizing existing applications. A certified application provides the following benefits:
 
 Best practices: Your application follows cloud native best practices. This is useful to know whether you are building upon the work of the community or handling your own custom setup.
 
