@@ -31,5 +31,5 @@ slack channel. Details: [CNF WG](https://github.com/cncf/cnf-wg/blob/main/README
 
 To contribute to or use the test suite you can join the slack channel, weekly meetings, and interact in GitHub. Details: [CNF Test Suite](https://github.com/cncf/cnf-testsuite#cnf-test-suite).
 
-To quickly get Test Suite up and running, see the [Quick Installation Guide](https://github.com/cncf/cnf-testsuite#installation-and-usage). 
+To quickly get the CNF Test Suite up and running, see the [Quick Installation Guide](https://github.com/cncf/cnf-testsuite#installation-and-usage). 
 
