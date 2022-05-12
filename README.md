@@ -21,7 +21,6 @@ Implementing and running applications in a cloud native manner will enable you t
 ## CNF Certification Program
 
 - [Instructions](instructions.md)
-- FAQ - TBD
 
 ## Working Group Information
 
