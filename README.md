@@ -1,31 +1,35 @@
-# CNF Conformance
-The goal of the CNF Conformance Program is to provide an open source test suite to demonstrate conformance and implementation of cloud native best practices for both open and closed source Cloud Native Network Functions. The conformance program is a living thing. The CNCF community, through the [Cloud Native Network Function Working Group](https://github.com/cncf/cnf-wg/blob/main/README.md), oversees and maintains what it means to be a cloud native conformant telco application (including those applications called network functions). It also develops the process and policy around the certification program. Work on the mechanics of the conformance tests occurs in the [CNF Conformance Test Suite](https://github.com/cncf/cnf-testsuite/#cnf-conformance-test-suite).
+# CNF Certification
 
-## Why Conformance Matters
-With such a wide array of applications being developed today, workload conformance tests help ensure that developers can follow cloud native best practices when building greenfield applications and/or modernizing existing applications. A conformance passing application provides the following guarantees:
+The CNF Certification program provides a way for open and closed source network functions (ie applications providing networking functionality) to demonstrate their adoption of cloud native best practices with the help of a open source testing framework called the [CNF Test Suite](https://github.com/cncf/cnf-testsuite). The certification program is a living thing. The CNCF community, including the [Cloud Native Network Function Working Group](https://github.com/cncf/cnf-wg/blob/main/README.md), and the [CNF Test Suite team](https://github.com/cncf/cnf-testsuite) work together in defining and overseeing what it means to be a cloud native certified telco application (eg. CNF). Work on the mechanics of the certification tests occurs in the [CNF Test Suite](https://github.com/cncf/cnf-testsuite).
 
-Best practices: Your application follows cloud native best practices. This is useful to know whether you are building upon the work of the community or handling your own custom setup.
+## Why Certification Matters
 
-Predictability: Your application acts in a predictable manner when running on cloud native infrastructure like Kubernetes. Unexpected behavior should be rare because application specific issues are weeded out during the conformance tests.
+With such a wide array of applications being developed today, workload certification tests help ensure that developers can follow cloud native best practices when building greenfield applications and/or modernizing existing applications. A certified application provides the following benefits:
 
-Interoperability: Workloads can be ported across various cloud native infrastructures. This standardization is a key advantage of open source software and allows you to avoid vendor lock-in.
+Interoperability: Standardization for communication between applications and the cloud platforms
+
+Shared experience: Build upon the work of the community through the adoption of cloud native best practices
+
+Predictability: Certified applications act in a predictable manner when running on cloud native infrastructure like Kubernetes. Unexpected behavior should be rare because application specific issues are weeded out during the best practice testing.
+
+Timely updates: To remain certified, vendors need to certify with new releases of their product and pass new certification tests yearly, or more frequently, so you can be sure that the products are following the best practices adopted by the cloud native community.
+
+Confirmability: Any end user can confirm that an application remains compliant to cloud native practices by running the identical open source certification application (CNF Test Suite) that was used to certify.
 
 Implementing and running applications in a cloud native manner will enable you to more fully benefit from the advantages of cloud native infrastructure.
 
-## CNF Conformance Program
+## CNF Certification Program
 
-- Instructions - TBD
-- FAQ - TBD
+- [Instructions](instructions.md)
 
 ## Working Group Information
 
-To participate and contribute to the program itself (including discussion of
-issues affecting conformance and certification), join the mailing list and
+To participate and contribute to the program itself (including discussion of issues affecting certification), join the mailing list and
 slack channel. Details: [CNF WG](https://github.com/cncf/cnf-wg/blob/main/README.md).
 
 ## Test Suite Information
 
-To contribute to or use the test suite you can join the slack channel, weekly meetings, and interact in GitHub. Details: [Test suite](https://github.com/cncf/cnf-testsuite/#cnf-conformance-test-suite).
+To contribute to or use the test suite you can join the slack channel, weekly meetings, and interact in GitHub. Details: [CNF Test Suite](https://github.com/cncf/cnf-testsuite#cnf-test-suite).
 
-To quickly get Test Suite up and running, see the [Quick Installation Guide](https://github.com/cncf/cnf-testsuite/#installation). 
+To quickly get the CNF Test Suite up and running, see the [Quick Installation Guide](https://github.com/cncf/cnf-testsuite#installation-and-usage). 
 
