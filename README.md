@@ -6,11 +6,15 @@ The CNF Certification program provides a way for open and closed source network 
 
 With such a wide array of applications being developed today, workload certification tests help ensure that developers can follow cloud native best practices when building greenfield applications and/or modernizing existing applications. A certified application provides the following benefits:
 
-Best practices: Your application follows cloud native best practices. This is useful to know whether you are building upon the work of the community or handling your own custom setup.
+Interoperability: Standardization for communication between applications and the cloud platforms
 
-Predictability: Your application acts in a predictable manner when running on cloud native infrastructure like Kubernetes. Unexpected behavior should be rare because application specific issues are weeded out during the conformance tests.
+Shared experience: Build upon the work of the community through the adoption of cloud native best practices
 
-Interoperability: Workloads can be ported across various cloud native infrastructures. This standardization is a key advantage of open source software and allows you to avoid vendor lock-in.
+Predictability: Certified applications act in a predictable manner when running on cloud native infrastructure like Kubernetes. Unexpected behavior should be rare because application specific issues are weeded out during the best practice testing.
+
+Timely updates: To remain certified, vendors need to certify with new releases of their product and pass new certification tests yearly, or more frequently, so you can be sure that the products are following the best practices adopted by the cloud native community.
+
+Confirmability: Any end user can confirm that an application remains compliant to cloud native practices by running the identical open source certification application (CNF Test Suite) that was used to certify.
 
 Implementing and running applications in a cloud native manner will enable you to more fully benefit from the advantages of cloud native infrastructure.
 
