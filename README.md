@@ -6,7 +6,7 @@ The CNF Certification program provides a way for open and closed source network 
 
 With such a wide array of applications being developed today, workload certification tests help ensure that developers can follow cloud native best practices when building greenfield applications and/or modernizing existing applications. A certified application provides the following benefits:
 
-Interoperability: Standardization for communication between applications and the cloud platforms
+Interoperability: Make it easier for applications to work well with other applications and the cloud platforms they run on
 
 Shared experience: Build upon the work of the community through the adoption of cloud native best practices
 
