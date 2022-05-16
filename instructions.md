@@ -51,7 +51,7 @@ NOTE: The results file and the config file are required in the submission result
 
 ## Uploading
 
-Prepare a PR to [https://github.com/cncf/cnf-conformance](https://github.com/cncf/cnf-conformance).
+Prepare a PR to [https://github.com/cncf/cnf-certification](https://github.com/cncf/cnf-certification).
 
 Here are [directions](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork) to prepare a pull request from a fork.
 
