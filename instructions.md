@@ -33,7 +33,7 @@ The standard tool for running these tests is the [CNF Test Suite](https://github
 1. Download the [certification binary release](https://github.com/cncf/cnf-testsuite/releases/tag/v0.29.1) of the test suite
 1. Run setup to prepare the cnf-testsuite: `cnf-testsuite setup`
 3. Create a configuration file for testing your CNF
-    1. Review the [CNF_TESTSUITE_YML_USAGE.md](CNF_TESTSUITE_YML_USAGE.md) document on formatting and other requirements.
+    1. Review the [https://github.com/cncf/cnf-testsuite/blog/main/CNF_TESTSUITE_YML_USAGE.md](CNF_TESTSUITE_YML_USAGE.md) document on formatting and other requirements.
     1. Create a cnf-testsuite.yml with the required information
 4. Initialize the test suite for using the CNF: `cnf-testsuite cnf_setup cnf-config=./cnf-testsuite.yml`
 5. Run the certication tests: `cnf-testsuite cert`
