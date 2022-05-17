@@ -1,4 +1,4 @@
-# CNF Certification
+# CNF Certification - v1.0-beta1
 
 The CNF Certification program provides a way for open and closed source network functions (ie applications providing networking functionality) to demonstrate their adoption of cloud native best practices with the help of a open source testing framework called the [CNF Test Suite](https://github.com/cncf/cnf-testsuite). The certification program is a living thing. The CNCF community, including the [Cloud Native Network Function Working Group](https://github.com/cncf/cnf-wg/blob/main/README.md), and the [CNF Test Suite team](https://github.com/cncf/cnf-testsuite) work together in defining and overseeing what it means to be a cloud native certified telco application (eg. CNF). Work on the mechanics of the certification tests occurs in the [CNF Test Suite](https://github.com/cncf/cnf-testsuite).
 
