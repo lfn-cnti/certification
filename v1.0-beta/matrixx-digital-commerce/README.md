@@ -33,8 +33,8 @@ Please note the wait_count, this is used for increase_decrease_capacity.
 Once its complete, it should produce a results file and output a summary of the results
 
 ```
-RESULTS SUMMARY
-2022-05-15 21:33:58 : [runTest001]    [cnfRun]          - 25 of 56 total tests passed
-2022-05-15 21:33:58 : [runTest001]    [cnfRun]          - 10 of 13 essential tests passed
-2022-05-15 21:33:58 : [runTest001]    [cnfRun]        Results have been saved to results/cnf-testsuite-results-20220515-170901-190.yml
+2022-05-18 17:30:03 : [runTest001]    [cnfRun]        RESULTS SUMMARY
+2022-05-18 17:30:03 : [runTest001]    [cnfRun]          - 26 of 56 total tests passed
+2022-05-18 17:30:03 : [runTest001]    [cnfRun]          - 11 of 14 essential tests passed
+2022-05-18 17:30:03 : [runTest001]    [cnfRun]        Results have been saved to results/cnf-testsuite-results-20220518-131113-558.yml
 ```
