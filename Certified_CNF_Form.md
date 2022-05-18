@@ -4,7 +4,7 @@
 
 Complete this form for each Participant (company or other entity) that desires to participate in the **CNF Certification** **Program** and to use the Certified CNF Marks. CNF and the Certified CNF Marks are trademarks of The Linux Foundation. Capitalized terms used herein and not otherwise defined shall have the same meanings set forth in the Program Terms.
 
-By signing below and submitting this form to The Linux Foundation (by email tocnfcertification@cncf.io or other method made available by The Linux Foundation):
+By signing below and submitting this form to The Linux Foundation (by email to: cnfcertification@cncf.io or other method made available by The Linux Foundation):
 
 1. The Participant agrees to the Terms and Conditions of the **CNF Certification** **Program** (the “Program Terms”), available at https://github.com/cncf/cnf-certification/blob/main/Certified_CNF_Terms.md
 2. The Participant confirms that the products and services identified below as Qualifying Offerings have passed all of the self-tests described in the Certification Guide, and are Qualifying Offerings under the Program Terms.
