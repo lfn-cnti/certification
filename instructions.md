@@ -109,7 +109,7 @@ description: "The Yoyodyne Turbo DHCP-Proxy is a superb DHCP proxy
 ```
 
 ## Review
-A reviewer will shortly comment on and/or accept your pull request, following this process. If you don't see a response within 5 business days, please send an email to cnfcertification@cncf.io.
+A reviewer will shortly comment on and/or accept your pull request, following [this process](https://github.com/cncf/cnf-certification/blob/main/reviewing.md). If you don't see a response within 5 business days, please send an email to cnfcertification@cncf.io.
 
 ## Issues
 If you have problems self-certifying that you feel is due to an issue with the CNF Certification program (and not just your own implementation), you can file an issue in this repository. Questions and comments can also be sent via email to cnfcertification@cncf.io.
