@@ -1,0 +1,68 @@
+vendor: Juniper Networks, Inc
+name: cRPD
+version: 22.1R1.10
+website_url: http://www.juniper.net
+repo_url: https://github.com/hamidiridha/cnf-certification/pull/1
+documentation_url: https://www.juniper.net/documentation/product/us/en/crpd/
+product_logo_url: 
+type: routing protocol stack
+description: "The Junos® containerized routing protocol daemon (cRPD) offers deployment-hardened feature-rich routing functionality in a container for cloud-native deployments."
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: crpd
+spec:
+  selector:
+    matchLabels:
+      app: crpd
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: crpd
+    spec:
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+              - matchExpressions:
+                  - key: kubernetes.io/os
+                    operator: In
+                    values:
+                      - linux
+                  - key: kubernetes.io/arch
+                    operator: In
+                    values:
+                      - amd64
+                  - key: "node-role.kubernetes.io/master"
+                    operator: DoesNotExist
+        podAntiAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+          - labelSelector:
+              matchExpressions:
+              - key: app
+                operator: In
+                values:
+                - crpd
+            topologyKey: "kubernetes.io/hostname"
+      containers:
+       - name: crpd
+         image: crpd:22.1R1.10
+         ports:
+           - containerPort: 179
+             name: bgp
+             protocol: TCP
+         securityContext:
+           privileged: true
+           capabilities:
+             add:
+               - NET_ADMIN
+               - NET_RAW
+               - SYS_ADMIN
+         resources:
+           requests:
+             memory: "64Mi"
+             cpu: "250m"
+           limits:
+             memory: "128Mi"
+             cpu: "500m"
