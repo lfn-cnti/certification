@@ -36,7 +36,7 @@ The standard tool for running these tests is the [CNF Test Suite](https://github
     1. Review the [CNF_TESTSUITE_YML_USAGE.md](https://github.com/cncf/cnf-testsuite/blob/main/CNF_TESTSUITE_YML_USAGE.md) document on formatting and other requirements.
     1. Create a cnf-testsuite.yml with the required information
 4. Initialize the test suite for using the CNF: `cnf-testsuite cnf_setup cnf-config=./cnf-testsuite.yml`
-5. Run the certication tests: `cnf-testsuite cert`
+5. Run the certification tests: `cnf-testsuite cert`
 
 The results file will be saved to: results/cnf-testsuite-results-YEAR-MMDD-HHMMSS-NNN.yml
 
