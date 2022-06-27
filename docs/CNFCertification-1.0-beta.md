@@ -7,6 +7,31 @@ To learn how to run these tests, see the "Instructions." For further details see
 
 To learn why these tests were written, see the [RATIONALE.md](https://github.com/cncf/cnf-testsuite/blob/main/RATIONALE.md)
 
+### Types of Tests (Currently 57 total for the Certification)
+- **Essential**: 15 total
+- **Normal**: 24 total
+- **Bonus**: 18 total
+
+The first level of certification requires the passing of 10 of the 15 total essential tests.
+
+The List of Essential Tests are:
+
+- [latest_tag](#latest-tag)
+- [selinux_options](#selinux-options)
+- [single_process_type](#single-process-type-in-one-container)
+- [node_drain](#node-drain)
+- [liveness](#helm-chart-liveness)
+- [readiness](#helm-chart-readiness)
+- [log_output](#use-stdoutstderr-for-logs)
+- [container_sock_mounts](#container-socket-mounts)
+- [privileged_containers](#privileged-containers-kubescape)
+- [non_root_containers](#non-root-containers)
+- [resource_policies](#resource-policies)
+- [hostpath_mounts](#hostpath-mounts)
+- [hostport_not_used](#hostport-not-used)
+- [hardcoded_ip_addresses_in_k8s_runtime_configuration](#hardcoded-ip-addresses-in-k8s-runtime-configuration)
+- [increase_decrease_capacity](#increase-decrease-capacity)
+
 
 List of Workload Tests
 ---
@@ -289,7 +314,7 @@ See more at [ARMO-C0012](https://bit.ly/C0012_application_credentials)
 **What's tested:** Checks Ingress and Egress traffic policy
 
 
-## [Privilege escalation, Kubescape](https://github.com/cncf/cnf-testsuite/blob/v0.27.0/src/tasks/workload/security.cr#L156) 
+## [Privileged containers, Kubescape](https://github.com/cncf/cnf-testsuite/blob/v0.27.0/src/tasks/workload/security.cr#L156) 
 - Added to CNF Certification in v1.0
 - Expectation: Containers should not allow privilege escalation
 
