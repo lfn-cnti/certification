@@ -36,7 +36,7 @@ The standard tool for running these tests is the [CNF Test Suite](https://github
     1. Review the [CNF_TESTSUITE_YML_USAGE.md](https://github.com/cncf/cnf-testsuite/blob/main/CNF_TESTSUITE_YML_USAGE.md) document on formatting and other requirements.
     1. Create a cnf-testsuite.yml with the required information
 4. Initialize the test suite for using the CNF: `cnf-testsuite cnf_setup cnf-config=./cnf-testsuite.yml`
-5. Run the certication tests: `cnf-testsuite cert`
+5. Run the certification tests: `cnf-testsuite cert`
 
 The results file will be saved to: results/cnf-testsuite-results-YEAR-MMDD-HHMMSS-NNN.yml
 
@@ -89,7 +89,7 @@ This file describes your product. It is YAML formatted with the following root-l
 | `website_url`       | URL to the product information website |
 | `repo_url`          | If your product is open source, this field is necessary to point to the primary GitHub repo containing the source. It's OK if this is a mirror. OPTIONAL  |
 | `documentation_url` | URL to the product documentation. OPTIONAL |
-| `product_logo_url`  | URL to the product's logo, (must be in SVG, AI or EPS format -- not a PNG -- and include the product name). OPTIONAL. If not supplied, we'll use your company logo. Please see logo [guidelines](https://github.com/cncf/landscape#logos) |
+| `product_logo_url`  | URL to the product's logo, (must be in SVG format -- not a PNG -- and include the product name). If not supplied, we'll use your company logo. Please see logo [guidelines](https://github.com/cncf/landscape#logos). |
 | `type`              | What kind of application? Eg. Firewall |
 | `description` | One sentence description of your offering |
 
