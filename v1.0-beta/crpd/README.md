@@ -17,7 +17,9 @@ Validate Test Suite
 cnf-testsuite validate_config cnf-config=cnf-testsuite.yml
 ```
 Prepare Test Suite
+```
 cnf-testsuite cnf_setup cnf-config=./cnf-testsuite.yml
+```
 # Running the Tests
 The previous command takes several minutes and should create all the folders for the test results
 ```
