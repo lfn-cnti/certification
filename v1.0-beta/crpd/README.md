@@ -20,12 +20,12 @@ Prepare Test Suite
 ```
 cnf-testsuite cnf_setup cnf-config=./cnf-testsuite.yml
 ```
-# Running the Tests
+# Running Tests
 The previous command takes several minutes and should create all the folders for the test results
 ```
 cnf-testsuite cert
 ```
-# Results
+# Test Results
 Test results should be stored under folder "Results" and the end of the file should like like below
 ```
 maximum_points: 1521
