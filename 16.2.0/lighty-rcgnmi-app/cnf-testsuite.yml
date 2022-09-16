@@ -1,0 +1,5 @@
+---
+release_name: lighty
+helm_install_namespace: cnfspace
+
+helm_directory: "lighty-rcgnmi-app-helm"
