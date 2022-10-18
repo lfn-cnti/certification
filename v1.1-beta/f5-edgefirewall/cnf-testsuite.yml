@@ -1,0 +1,3 @@
+release_name: f5edgefw
+helm_directory: f5ingress
+helm_install_namespace: cnf-edgefw

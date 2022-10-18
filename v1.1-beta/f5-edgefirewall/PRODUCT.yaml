@@ -1,0 +1,7 @@
+vendor: F5, Inc.
+name: BIG-IP NEXT Edge Firewall CNF
+version: v1.0.1
+website_url: https://www.f5.com/products/cloud-native-network-functions
+documentation_url: https://clouddocs.f5.com/
+type: Firewall
+description: "BIG-IP NEXT Edge Firewall provides Firewall, DDoS and Intrusion Prevention capbilities and is part of F5's Consolidated suite of CNFs."
