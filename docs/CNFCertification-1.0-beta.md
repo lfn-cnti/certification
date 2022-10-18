@@ -330,23 +330,6 @@ See more at [ARMO-C0012](https://bit.ly/C0012_application_credentials)
 This test checks against a [blacklist of insecure capabilities](https://github.com/FairwindsOps/polaris/blob/master/checks/insecureCapabilities.yaml).
     
 
-## [Dangerous capabilities](https://github.com/cncf/cnf-testsuite/blob/v0.27.0/src/tasks/workload/security.cr#L293)
-- Added to CNF Certification in v1.0
-- Expectation: Containers should not have dangerous capabilities enabled
-
-**What's tested:**
-This test checks against a [denylist of dangerous capabilities](https://github.com/FairwindsOps/polaris/blob/master/checks/dangerousCapabilities.yaml).
-
-See more at [ARMO-C0028](https://bit.ly/C0028_Dangerous_Capabilities)
-
-
-## [Network policies](https://github.com/cncf/cnf-testsuite/blob/v0.27.0/src/tasks/workload/security.cr#L398)
-- Added to CNF Certification in v1.0
-- Expectation: Namespaces should have network policies defined
-
-**What's tested:** Checks if network policies are defined for namespaces. Read more at [ARMO-C0011](https://bit.ly/2ZEwb0A).
-
-
 ## [Non-root containers](https://github.com/cncf/cnf-testsuite/blob/v0.27.0/src/tasks/workload/security.cr#L377)
 - Added to CNF Certification in v1.0
 - Expectation: Containers should run with non-root user with non-root group membership
