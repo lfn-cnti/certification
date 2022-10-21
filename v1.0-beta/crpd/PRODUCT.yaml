@@ -1,0 +1,7 @@
+vendor: Juniper Networks
+name: Containerized Routing Protocol Daemon
+version: 22.1R1.10
+website_url: www.juniper.net
+product_logo_url: https://www.dropbox.com/s/d27hmfr92rt3a1c/cRPD-Logo.svg?dl=0 
+description: "The Junos® containerized routing protocol daemon (cRPD) offers deployment-hardened feature-rich routing functionality in a container for cloud-native deployments."
+
