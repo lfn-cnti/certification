@@ -22,5 +22,5 @@ If the submission doesn't meet all policy requirements, reply with a message ind
 1. Update the Certified CNF spreadsheet to reflect the vendor's certified offering.
 2. Add the vendor's information to the CNCF landscape which also causes them to appear on https://www.cncf.io/certification/cnf.
 3. Add a comment saying "This product is now a "Certified CNF".
-4. Merge the PR.
+4. Merge the PR (eg. Squad and merge).
 5. Close the PR.
