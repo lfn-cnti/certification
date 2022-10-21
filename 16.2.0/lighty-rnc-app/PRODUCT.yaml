@@ -1,0 +1,10 @@
+vendor: PANTHEON.tech s.r.o.
+name: lighty-rnc-app
+version: 16.2.0
+website_url: https://lighty.io/
+repo_url: https://github.com/PANTHEONtech/lighty/tree/16.2.0/lighty-applications/lighty-rnc-app-aggregator
+documentation_url: https://github.com/PANTHEONtech/lighty/blob/16.2.0/lighty-applications/lighty-rnc-app-aggregator/README.md
+product_logo_url: https://github.com/PANTHEONtech/lighty/blob/master/docs/lighty-logo.svg
+type: lighty RESTCONF-NETCONF APP
+description: "The lighty.io RESTCONF-NETCONF application allows to easily initialize, start and utilize the most
+              used OpenDaylight services and optionally add custom business logic"
