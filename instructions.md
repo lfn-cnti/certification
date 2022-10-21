@@ -13,8 +13,8 @@ There are [57 tests](docs/CNFCertification-1.0-beta.md) included in the CNF Cert
 
 ## Prereqs
 
-**K8s Cluster**
-- [Access](https://kubernetes.io/docs/tasks/access-application-cluster/access-cluster/) to a working [Certified K8s](https://cncf.io/ck) cluster using the [containerd](https://containerd.io/) runtime
+**K8s Multi-node Cluster**
+- [Access](https://kubernetes.io/docs/tasks/access-application-cluster/access-cluster/) to a working [Certified K8s](https://cncf.io/ck) multi-node cluster using the [containerd](https://containerd.io/) runtime
 
 **Workstation**
 - Linux OS
