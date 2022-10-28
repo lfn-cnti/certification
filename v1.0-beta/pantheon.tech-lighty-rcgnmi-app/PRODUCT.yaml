@@ -1,0 +1,9 @@
+vendor: PANTHEON.tech s.r.o.
+name: lighty-rcgnmi-app
+version: 16.2.0
+website_url: https://lighty.io/
+repo_url: https://github.com/PANTHEONtech/lighty/tree/16.2.0/lighty-applications/lighty-rcgnmi-app-aggregator
+documentation_url: https://github.com/PANTHEONtech/lighty/blob/16.2.0/lighty-applications/lighty-rcgnmi-app-aggregator/README.md
+product_logo_url: https://github.com/PANTHEONtech/lighty/blob/master/docs/lighty-logo.svg
+type: lighty gNMI APP
+description: "The lighty.io gNMI RESTCONF plugin allows for easy manipulation of gNMI devices. "
