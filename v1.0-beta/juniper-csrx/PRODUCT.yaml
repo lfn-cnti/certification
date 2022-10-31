@@ -1,0 +1,7 @@
+vendor: Juniper Networks
+name: Containerized Security Router and Switch (cSRX)
+version: 22.1R1.10
+website_url: www.juniper.net
+product_logo_url: https://www.dropbox.com/s/vxx6nt3r4azvvm5/cSRX-Logo.svg?dl=0
+description: "The cSRX Container Firewall protects containerized applications and environments with advanced security services, including content security and intrusion prevention system (IPS). Purpose-built for containers, the cSRX next-generation firewall can be spun up or down in less than a second for the agility needed to manage transitory container environments like Kubernetes." 
+
