@@ -1,0 +1,77 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: csrx
+spec:
+  selector:
+    matchLabels:
+      app: csrx
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: csrx
+    spec:
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+              - matchExpressions:
+                  - key: kubernetes.io/os
+                    operator: In
+                    values:
+                      - linux
+                  - key: kubernetes.io/arch
+                    operator: In
+                    values:
+                      - amd64
+                  - key: "node-role.kubernetes.io/master"
+                    operator: DoesNotExist
+        podAntiAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+          - labelSelector:
+              matchExpressions:
+              - key: app
+                operator: In
+                values:
+                - csrx
+            topologyKey: "kubernetes.io/hostname"
+      containers:
+       - name: csrx
+         image: csrx:22.1R1.10
+         ports:
+           - containerPort: 179
+             name: bgp
+             protocol: TCP
+         securityContext:
+           privileged: true
+           capabilities:
+             add:
+               - NET_ADMIN
+               - NET_RAW
+               - SYS_ADMIN
+         resources:
+           requests:
+             memory: "256Mi"
+             cpu: "100m"
+           limits:
+             memory: "500Mi"
+             cpu: "1000m"
+         args:
+         - /bin/sh
+         - -c
+         - touch /tmp/healthy; sleep 30; rm -f /tmp/healthy; sleep 600
+         livenessProbe:
+           exec:
+             command:
+             - cat
+             - /tmp/healthy
+           initialDelaySeconds: 5
+           periodSeconds: 5      
+         readinessProbe:
+           exec:
+             command:
+             - cat
+             - /tmp/healthy
+           initialDelaySeconds: 5
+           periodSeconds: 5    
