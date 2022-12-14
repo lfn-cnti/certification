@@ -1,4 +1,4 @@
-# CNF Certification List of Tests - v1.0-beta
+# CNF Certification List of Tests - v1.1-beta
 
 ## Summary
 This document provides a summary of the tests included in the CNF Certification. Each test lists a general overview of what the test does, a link to the test code for that test, and links to additional information when relevant/available.
