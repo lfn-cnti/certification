@@ -7,9 +7,9 @@ To learn how to run these tests, see the "Instructions." For further details see
 
 To learn why these tests were written, see the [RATIONALE.md](https://github.com/cncf/cnf-testsuite/blob/main/RATIONALE.md)
 
-### Types of Tests (Currently 57 total for the Certification)
+### Types of Tests (Currently 55 total for the Certification)
 - **Essential**: 15 total
-- **Normal**: 24 total
+- **Normal**: 22 total
 - **Bonus**: 18 total
 
 The first level of certification requires the passing of 10 of the 15 total essential tests.
@@ -70,13 +70,6 @@ You can read more about horizonal pod autoscaling to create replicas [here](http
 - Expectation: Helm deploy is successful
 
 **What's tested:** This checks if the CNF was deployed using Helm
-
-## [Rolling changes](https://github.com/cncf/cnf-testsuite/blob/v0.27.0/src/tasks/workload/compatibility.cr#L8)
-- Added to CNF Certification in v1.0
-- Expectation: test if the CNF can perform a [rolling update](https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/), [Rolling version change], and [Rolling downgrade]
-
-**What's tested:** TBD
-
 
 ## [Rollback](https://github.com/cncf/cnf-testsuite/blob/v0.27.0/src/tasks/workload/compatibility.cr#L87)
 - Added to CNF Certification in v1.0
