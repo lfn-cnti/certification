@@ -1,0 +1,4 @@
+---
+helm_directory: vsr
+release_name: vsr
+helm_install_namespace: vsr

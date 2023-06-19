@@ -1,0 +1,9 @@
+vendor: 6WIND
+name: 6WIND Virtual Service Router CNF
+version: 3.6.2
+website_url: www.6wind.com
+documentation_url: https://doc.6wind.com/new/vsr-3/3.6/vsr-guide/
+product_logo_url: https://www.droids-corp.org/~zer0/hidden/VSR-logo2022.svg 
+type: Router
+description: "6WIND VSR is a Virtual Service Router that leverages 6WIND's core technology to deliver network services solutions into virtual and cloud environments quickly, efficiently, and cost-effectively.
+              6WIND VSR enables CSPs, Enterprises, and Cloud Providers to benefit from our leading high-performance network services for building efficient, flexible, and reliable networks."
