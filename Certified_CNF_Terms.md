@@ -3,7 +3,7 @@
 (Available in [PDF](https://github.com/cncf/k8s-conformance/raw/master/terms-conditions/Certified_Kubernetes_Terms.pdf).)
 
 
-#### Last updated: May 17, 2022
+#### Last updated: June 22, 2023
 
 This document sets forth the terms and conditions that apply to the CNF Certification Program and use of the Certified CNF Marks.
 
