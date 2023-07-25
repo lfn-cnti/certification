@@ -38,7 +38,7 @@ Select one:\[ ] Participant is a member of CNCF.
 
 **Qualifying Offerings**
 
-Name, brief description and URLs for more information:
+Product name, product version, brief description and URLs for more information:
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -53,7 +53,7 @@ Name, brief description and URLs for more information:
 
 **Certification Details**
 
-**Initial Version of CNF Certification** (e.g., v1.8): \_\_\_\_\_\_\_
+**Initial Version of CNF Certification** (e.g., v1.1-beta): \_\_\_\_\_\_\_
 
 **Certification Date**: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
