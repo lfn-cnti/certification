@@ -6,14 +6,18 @@ The main version being tested is 5270.
 
 ## Set Up
 
-Set up the testsuite like normal
-
+Set up the testsuite like normal in these directories
+```
+~/helm/certifications/cnf-testsuite/matrixx-chf-standalone
+~/helm/certifications/cnf-testsuite/matrixx-dcp
+~/helm/certifications/cnf-testsuite/matrixx-sba-5gc-events
+~/helm/certifications/cnf-testsuite/tmf-party-management
+~/helm/certifications/cnf-testsuite/tmf-service-activation-management
+~/helm/certifications/cnf-testsuite/tmf-usage-consumption-management
+```
 ```
 cnf-testsuite setup
 ```
-
-Then setup the config
-
 ```
 cnf-testsuite cnf_setup cnf-config=./cnf-testsuite.yml
 ```

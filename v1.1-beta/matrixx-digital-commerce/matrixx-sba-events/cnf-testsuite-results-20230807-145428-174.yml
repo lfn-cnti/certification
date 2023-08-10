@@ -2,7 +2,7 @@
 name: cnf testsuite
 testsuite_version: v0.42.3
 status:
-command: /home/dwilmes/.mtx/konstruxx/working/tests/cnfTestsuite/cnf-testsuite cert
+command: ~/.mtx/konstruxx/working/tests/cnfTestsuite/cnf-testsuite cert
   wait_count=100
 points: 1285
 exit_code: 2

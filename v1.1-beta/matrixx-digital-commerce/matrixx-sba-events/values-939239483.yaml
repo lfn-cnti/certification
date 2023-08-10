@@ -30,7 +30,7 @@ sftp:
   uploadDirectory: upload
   credentials:
     username: mtxsftpuser
-    password: bXR4MTIzCg==
+    password: abc123
 mapping:
   trace: true
 monitoring:
