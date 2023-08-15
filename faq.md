@@ -15,5 +15,7 @@ The certification categorizes the tests into groups that are Normal, Essental an
 ## What do "PASSED, FAILED, SKIPPED, N/A" mean while I'm running the Certification?
 PASSED indicates the CNF passes the defined test based on the best practice. FAILED indicates it does not meet the requirements based on the best practice. SKIPPED indicates the test was skipped entirely, usually due to a service not installed that the test is checking against. An example SKIPPED would be our test that verifies if Prometheus is being used with the CNF or k8s cluster for monitoring and is not found to be in use. N/A indicates that the test does not apply, an example would be our SELinux_options test. If SELinux is not enabled, it's marked as N/A.
 
+You'll need to pass (PASSED) 10 of the 15 marked Essential tests in order to become certified. See previous question for more details.
+
 ## I still have questions. Can you help?
 Yes. Please email us at cnfcertification@cncf.io.
