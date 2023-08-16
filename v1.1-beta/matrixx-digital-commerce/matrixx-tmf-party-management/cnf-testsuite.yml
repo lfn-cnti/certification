@@ -2,8 +2,7 @@
 helm_directory: "tmf-service-activation-management"
 release_name: "cnf"
 helm_install_namespace: "matrixx"
-helm_values: "--values ~/.mtx/konstruxx/working/values-232795837.yaml\
-  \ --devel"
+helm_values: "--values ~/.mtx/konstruxx/working/values-232795837.yaml"
 allowlist_helm_chart_container_names: []
 container_names:
 - name: "tmf-service-activation-management"

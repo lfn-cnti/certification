@@ -2,8 +2,7 @@
 helm_directory: "matrixx"
 release_name: "cnf"
 helm_install_namespace: "matrixx"
-helm_values: "--values ~/.mtx/konstruxx/working/values1685358688.yaml\
-  \ --devel"
+helm_values: "--values ~/.mtx/konstruxx/working/values1685358688.yaml"
 allowlist_helm_chart_container_names:
 - "falco"
 - "promtail"

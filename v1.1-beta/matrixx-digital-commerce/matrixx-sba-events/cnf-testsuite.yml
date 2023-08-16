@@ -2,8 +2,7 @@
 helm_directory: "sba-5gc-events"
 release_name: "cnf"
 helm_install_namespace: "matrixx"
-helm_values: "--values ~/.mtx/konstruxx/working/values-939239483.yaml\
-  \ --devel"
+helm_values: "--values ~/.mtx/konstruxx/working/values-939239483.yaml"
 allowlist_helm_chart_container_names:
 - "falco"
 - "promtail"
