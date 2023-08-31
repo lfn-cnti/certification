@@ -1,0 +1,10 @@
+---
+release_name: nslb-6216-5637d-qg6gc
+helm_install_namespace: ns000000000000000000001
+helm_directory: charts/nslb
+container_names:
+ - name: nslb
+   rollback_from_tag: v600r002c16
+   rolling_update_test_tag: v600r002c17
+   rolling_downgrade_test_tag: v600r002c16
+   rolling_version_change_test_tag: v600r002c17
