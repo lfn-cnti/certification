@@ -1,0 +1,11 @@
+---
+helm_directory: charts/convergedcharging
+release_name: convergedch-320ff-ib9wv
+helm_install_namespace: ns000000000000000000001
+container_names:
+ - name: convergedcharging
+   rollback_from_tag: 2303100
+   rolling_update_test_tag: 2303200
+   rolling_downgrade_test_tag: 2303100
+   rolling_version_change_test_tag: 2303200
+   

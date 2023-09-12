@@ -1,0 +1,8 @@
+vendor: Huawei Technologies Co.,Ltd.
+name: Convergent Billing System CNF
+version: V500R023
+website_url: https://www.huawei.com/en/
+documentation_url: https://carrier.huawei.com/en/products/service-and-software/software-business
+product_logo_url: https://landscape.cncf.io/logos/huawei-member.svg
+type: Monetization
+description: "The next-generation convergent billing system(CBS) helps carriers reduce costs and improve efficiency with leading 5G monetization practices and cloud-native technologies, enabling carriers to monetize 5G productivity beyond connectivity."

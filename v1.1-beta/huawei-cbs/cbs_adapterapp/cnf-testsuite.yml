@@ -1,0 +1,10 @@
+---
+release_name: adapterapp--320ff-faulm
+helm_install_namespace: ns000000000000000000001
+helm_directory: charts/adapterapp
+container_names:
+ - name: adapterapp
+   rollback_from_tag: 2303100
+   rolling_update_test_tag: 2303200
+   rolling_downgrade_test_tag: 2303100
+   rolling_version_change_test_tag: 2303200
