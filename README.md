@@ -1,6 +1,8 @@
-# CNF Certification - v1.1-beta
+# COMING SOON: CNTI Certification - v2.0-beta
 
-The CNF Certification program provides a way for open and closed source network functions (ie applications providing networking functionality) to demonstrate their adoption of cloud native best practices with the help of a open source testing framework called the [CNF Test Suite](https://github.com/cncf/cnf-testsuite). The certification program is a living thing. The CNCF community, including the [Cloud Native Network Function Working Group](https://github.com/cncf/cnf-wg/blob/main/README.md), and the [CNF Test Suite team](https://github.com/cncf/cnf-testsuite) work together in defining and overseeing what it means to be a cloud native certified telco application (eg. CNF). Work on the mechanics of the certification tests occurs in the [CNF Test Suite](https://github.com/cncf/cnf-testsuite).
+The Cloud Native Telecom Initiative (CNTI) Certification program provides a way for open and closed source network functions (ie applications providing networking functionality) to demonstrate their adoption of cloud native best practices with the help of a open source testing framework called the [CNTI Test Catalog](https://github.com/cnti-testcatalog/testsuite). 
+
+The certification program is a living thing. The CNTI focus areas, including the [CNTI Best Practices](https://github.com/lfn-cnti/bestpractices), the [CNTI Test Catalog](https://github.com/cnti-testcatalog/testsuite), and the CNTI Certification, work together in defining and overseeing what it means to be a cloud native certified telco application (eg. CNF). Work on the mechanics of the certification tests occurs in the [CNTI Test Catalog](https://github.com/cnti-testcatalog/testsuite) focus area.
 
 ## Why Certification Matters
 
@@ -14,22 +16,20 @@ Predictability: Certified applications act in a predictable manner when running 
 
 Timely updates: To remain certified, vendors need to certify with new releases of their product and pass new certification tests yearly, or more frequently, so you can be sure that the products are following the best practices adopted by the cloud native community.
 
-Confirmability: Any end user can confirm that an application remains compliant to cloud native practices by running the identical open source certification application (CNF Test Suite) that was used to certify.
+Confirmability: Any end user can confirm that an application remains compliant to cloud native practices by running the identical open source certification application (CNTI Test Catalog) that was used to certify.
 
 Implementing and running applications in a cloud native manner will enable you to more fully benefit from the advantages of cloud native infrastructure.
 
-## CNF Certification Program
+## CNTI Certification Program
 
 - [Instructions](instructions.md)
 
-## Working Group Information
+## CNTI Community Meetings & Communication
 
-To participate and contribute to the program itself (including discussion of issues affecting certification), join the mailing list and
-slack channel. Details: [CNF WG](https://github.com/cncf/cnf-wg/blob/main/README.md).
-
-## Test Suite Information
-
-To contribute to or use the test suite you can join the slack channel, weekly meetings, and interact in GitHub. Details: [CNF Test Suite](https://github.com/cncf/cnf-testsuite#cnf-test-suite).
-
-To quickly get the CNF Test Suite up and running, see the [Quick Installation Guide](https://github.com/cncf/cnf-testsuite#installation-and-usage). 
+- Join the bi-weekly [CNTI Certification meeting](https://wiki.lfnetworking.org/display/LN/Certification) every other Thursday at 8am PT.
+- Join the LFN CNTI Mailing List at https://lists.lfnetworking.org/g/lfn-cnti.
+- Join the conversation on [LFN Tech's Slack](https://lfntech.slack.com/) channels
+  - [#cnti-general](https://lfntech.slack.com/archives/C06GV633PRD)
+  - [#cnti-certification](https://lfntech.slack.com/archives/C06GYRL5ZPX)
+- Request an Intro to the Cloud Native Telecom Initiative (CNTI) [here](https://calendly.com/cnti/intro).
 
