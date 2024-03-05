@@ -2,7 +2,7 @@
 
 The Cloud Native Telecom Initiative (CNTI) Certification program provides a way for open and closed source network functions (ie applications providing networking functionality) to demonstrate their adoption of cloud native best practices with the help of a open source testing framework called the [CNTI Test Catalog](https://github.com/cnti-testcatalog/testsuite). 
 
-The certification program is a living thing. The CNTI focus areas, including the [CNTI Best Practices](https://github.com/lfn-cnti/bestpractices), the [CNTI Test Catalog](https://github.com/cnti-testcatalog/testsuite), and the CNTI Certification, work together in defining and overseeing what it means to be a cloud native certified telco application (eg. CNF). Work on the mechanics of the certification tests occurs in the [CNTI Test Catalog](https://github.com/cnti-testcatalog/testsuite) focus area.
+The certification program will continuously evolve. The CNTI focus areas, including the [CNTI Best Practices](https://github.com/lfn-cnti/bestpractices), the [CNTI Test Catalog](https://github.com/cnti-testcatalog/testsuite), and the CNTI Certification, work together in defining and overseeing what it means to be a cloud native certified telco application (eg. CNF). Work on the mechanics of the certification tests occurs in the [CNTI Test Catalog](https://github.com/cnti-testcatalog/testsuite) focus area.
 
 ## Why Certification Matters
 
