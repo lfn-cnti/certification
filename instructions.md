@@ -1,4 +1,4 @@
-# How to submit CNF Certification results
+# How to submit CNTI Certification results
 
 ## The tests
 
@@ -24,16 +24,16 @@ There are [57 tests](docs/CNFCertification-1.0-beta.md) included in the CNF Cert
 
 If you do not have a K8s cluster running, you can deploy your own cluster with [various tools](https://kubernetes.io/docs/setup/) or use a [public cloud or turnkey solution](https://kubernetes.io/docs/setup/production-environment/turnkey-solutions/)
 
-Kind is one option tested and supported by the CNF Test Suite team.  Follow the [kind install](https://github.com/cncf/cnf-testsuite/blob/main/KIND-INSTALL.md) instructions to setup a cluster in [kind](https://kind.sigs.k8s.io/)
+Kind is one option tested and supported by the CNTI Test Catalog team.  Follow the [kind install](https://github.com/cnti-testcatalog/testsuite/blob/main/KIND-INSTALL.md) instructions to setup a cluster in [kind](https://kind.sigs.k8s.io/)
 
 
 ## Running
-The standard tool for running these tests is the [CNF Test Suite](https://github.com/cncf/cnf-testsuite). 
+The standard tool for running these tests is the [CNTI Test Catalog](https://github.com/cnti-testcatalog/testsuite). 
 
-1. Download the [certification binary release](https://github.com/cncf/cnf-testsuite/releases/tag/v0.29.1) of the test suite
+1. Download the [certification binary release](https://github.com/cnti-testcatalog/testsuite/releases/tag/v0.29.1) of the test suite
 1. Run setup to prepare the cnf-testsuite: `cnf-testsuite setup`
 3. Create a configuration file for testing your CNF
-    1. Review the [CNF_TESTSUITE_YML_USAGE.md](https://github.com/cncf/cnf-testsuite/blob/main/CNF_TESTSUITE_YML_USAGE.md) document on formatting and other requirements.
+    1. Review the [CNF_TESTSUITE_YML_USAGE.md](https://github.com/cnti-testcatalog/testsuite/blob/main/CNF_TESTSUITE_YML_USAGE.md) document on formatting and other requirements.
     1. Create a cnf-testsuite.yml with the required information
 4. Initialize the test suite for using the CNF: `cnf-testsuite cnf_setup cnf-config=./cnf-testsuite.yml`
 5. Run the certification tests: `cnf-testsuite cert`
@@ -46,21 +46,21 @@ Example:
 NOTE: The results file and the config file are required in the submission results.
 
 
-<!--1. Pull down an example CNF configuration to try: curl -o cnf-testsuite.yml https://raw.githubusercontent.com/cncf/cnf-testsuite/main/example-cnfs/coredns/cnf-testsuite.yml-->
+<!--1. Pull down an example CNF configuration to try: curl -o cnf-testsuite.yml https://raw.githubusercontent.com/cnti-testcatalog/testsuite/main/example-cnfs/coredns/cnf-testsuite.yml-->
 
 
 ## Uploading
 
-Prepare a PR to [https://github.com/cncf/cnf-certification](https://github.com/cncf/cnf-certification).
+Prepare a Pull Request (PR) to [https://github.com/lfn-cnti/certification](https://github.com/lfn-cnti/certification).
 
 Here are [directions](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork) to prepare a pull request from a fork.
 
-The PR title should look like this: `CNF Certification results for vX.Y/DIR`
+The PR title should look like this: `CNTI Certification results for vX.Y/DIR`
 
-In the PR title above, the `X.Y` refers to the CNF Certification major and minor version, and `DIR` is a short subdirectory name to hold the results for your product.  Examples
+In the PR title above, the `X.Y` refers to the CNTI Certification major and minor version, and `DIR` is a short subdirectory name to hold the results for your product.  Examples
 
-- `CNF Certification results for v1.0/mychargingapp`
-- `CNF Certification results for v1.2/fancyfirewall`
+- `CNTI Certification results for v1.0/mychargingapp`
+- `CNTI Certification results for v1.2/fancyfirewall`
 
 
 ### Contents of the PR
@@ -83,7 +83,7 @@ This file describes your product. It is YAML formatted with the following root-l
 
 | Field               | Description |
 | ------------------- | ----------- |
-| `vendor`            | Name of the legal entity that is certifying. This entity must have a signed participation form on file with the CNCF  |
+| `vendor`            | Name of the legal entity that is certifying. This entity must have a signed participation form on file with the LFN  |
 | `name`              | Name of the product being certified. |
 | `version`           | The version of the product being certified. |
 | `website_url`       | URL to the product information website |
@@ -109,9 +109,9 @@ description: "The Yoyodyne Turbo DHCP-Proxy is a superb DHCP proxy
 ```
 
 ## Review
-A reviewer will shortly comment on and/or accept your pull request, following [this process](https://github.com/cncf/cnf-certification/blob/main/reviewing.md). If you don't see a response within 5 business days, please send an email to cnfcertification@cncf.io.
+A reviewer will shortly comment on and/or accept your pull request, following [this process](https://github.com/lfn-cnti/certification/blob/main/reviewing.md). If you don't see a response within 5 business days, please send an email to lfn-cnti@lfnetworking.org.
 
 ## Issues
-If you have problems self-certifying that you feel is due to an issue with the CNF Certification program (and not just your own implementation), you can file an issue in this repository. Questions and comments can also be sent via email to cnfcertification@cncf.io.
+If you have problems self-certifying that you feel is due to an issue with the CNTI Certification program (and not just your own implementation), you can file an issue in this repository. Questions and comments can also be sent via email to lfn-cnti@lfnetworking.org.
 
 
