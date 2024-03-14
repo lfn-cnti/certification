@@ -20,7 +20,7 @@ If the submission doesn't meet all policy requirements, reply with a message ind
 
 ### Tasks to Complete After Review
 1. Update the Certified CNF spreadsheet to reflect the vendor's certified offering.
-2. Add the vendor's information to the LFN-CNTI landscape which also causes them to appear on [LFN-CNTI Landing Page](https://lfnetworking.org/cloud-native-telecom-initiative).
+2. Add the vendor's information to the [LFN-CNTI Landing Page](https://lfnetworking.org/cloud-native-telecom-initiative).
 3. Add a comment saying "This product is now a "Certified LFN-CNTI".
 4. Merge the PR (eg. Squad and merge).
 5. Close the PR.
