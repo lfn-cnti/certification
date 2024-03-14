@@ -1,7 +1,7 @@
 # Frequently Asked Questions
 
 ## What is the cost of certification?
-For [members](https://lfnetworking.org/about/members/) of the Linux Foundation Networking, there is no charge for certification. There is also no charge for non-profit organizations. For commercial organizations that wish to certify but don't want to become a LFN member, the fee is the same as [joining](https://lfnetworking.org/join/) the LFN.
+For [members](https://lfnetworking.org/about/members/) of LF Networking (LFN), there is no charge for certification. There is also no charge for non-profit organizations. For commercial organizations that wish to certify but don't want to become a LFN member, the fee is the same as [joining](https://lfnetworking.org/join/) the LFN.
 
 ## Is a participation form required per company or per product?
 Per product. Each separate product (i.e., different product name) from your company requires a different [participation form](https://github.com/lfn-cnti/certification/blob/main/Certified_CNF_Form.md). Submit a form to lfn-cnti@lfnetworking.org or another method made available by The Linux Foundation.
