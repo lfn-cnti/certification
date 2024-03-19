@@ -89,7 +89,7 @@ This file describes your product. It is YAML formatted with the following root-l
 | `website_url`       | URL to the product information website |
 | `repo_url`          | If your product is open source, this field is necessary to point to the primary GitHub repo containing the source. It's OK if this is a mirror. OPTIONAL  |
 | `documentation_url` | URL to the product documentation. OPTIONAL |
-| `product_logo_url`  | URL to the product's logo, (must be in SVG format -- not a PNG -- and include the product name). If not supplied, we'll use your company logo. Please see logo [guidelines](https://github.com/cncf/landscape#logos). |
+| `product_logo_url`  | URL to the product's logo, (must be in SVG format -- not a PNG -- and include the product name). If not supplied, we'll use your company logo. |
 | `type`              | What kind of application? Eg. Firewall |
 | `description` | One sentence description of your offering |
 
