@@ -19,7 +19,7 @@ Review the PRODUCT.yaml file, and:
 If the submission doesn't meet all policy requirements, reply with a message indicating "Signed participation form needed", "Files missing from PR", "Membership in LFN or confirmation of non-profit status needed", etc.
 
 ### Tasks to Complete After Review
-1. Update the Certified CNTI spreadsheet to reflect the vendor's certified offering.
+1. Update the CNTI Certifications spreadsheet to reflect the vendor's certified offering.
 2. Add the vendor's information to the [LFN-CNTI Landing Page](https://lfnetworking.org/cloud-native-telecom-initiative).
 3. Add a comment saying "This product is now "CNTI Certified."
 4. Merge the PR (eg. Squad and merge).
