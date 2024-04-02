@@ -6,7 +6,7 @@
 1. Note the vX.Y subdirectory that the PR is in, this is the version of CNTI Certification for which certified is being claimed, referenced as the "Certification Version" from hereon.
 1. Verify that the Certification Version is the current or previous version of CNTI Certification.
 1. Look at results log, cnf-testsuite-results-YYYY-MMDD-HHMMSS-NNN.yml. Verify that the major.minor component of the CNTI Certification matches the certification version being claimed. The patch version does not matter.
-1. Verify that the RESULTS SUMMARY section of results log "X of Y essential tests passed". There should be at least 10 essential tests passed.
+1. Verify that the RESULTS SUMMARY section of results log "X of Y essential tests passed". There should be at least 15 essential tests passed.
 
 ### Policy Requirements
 1. Confirm that the vendor is currently a member of LFN. If they are not, request that they obtain membership at [LFN Membership Inquiries](https://lfnetworking.org/join/) or reach out to info@lfnetworking.org for more information in order to complete their certification. (Companies can alternatively pay a certification fee equal to the cost of membership if, for whatever reason, they don't wish to become a LFN member.) Alternatively, non-profit organizations (including community distributions like Debian) can certify at no cost.
@@ -19,7 +19,7 @@ Review the PRODUCT.yaml file, and:
 If the submission doesn't meet all policy requirements, reply with a message indicating "Signed participation form needed", "Files missing from PR", "Membership in LFN or confirmation of non-profit status needed", etc.
 
 ### Tasks to Complete After Review
-1. Update the Certified CNF spreadsheet to reflect the vendor's certified offering.
+1. Update the Certified CNTI spreadsheet to reflect the vendor's certified offering.
 2. Add the vendor's information to the [LFN-CNTI Landing Page](https://lfnetworking.org/cloud-native-telecom-initiative).
 3. Add a comment saying "This product is now "CNTI Certified."
 4. Merge the PR (eg. Squad and merge).
