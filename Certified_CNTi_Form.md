@@ -1,4 +1,4 @@
-**CNTi Certification Program**
+### CNTi Certification Program - Participation Form
 
 **Participation Form**
 
