@@ -1,6 +1,5 @@
 ### CNTi Certification Program - Participation Form
 
-**Participation Form**
 
 **Last updated: March 5, 2024**
 
