@@ -1,6 +1,6 @@
 ### CNTi Certification - Terms and Conditions
 
-TBD: (Available in PDF.)
+(Available in [PDF](https://github.com/lfn-cnti/certification/blob/main/Certified_CNTi_Terms.pdf).)
 
 #### Last updated: March 5, 2024
 
