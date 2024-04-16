@@ -8,11 +8,11 @@ To learn how to run these tests, see the "Instructions." For further details see
 To learn why these tests were written, see the [RATIONALE.md](https://github.com/cnti-testcatalog/testsuite/blob/main/RATIONALE.md).
 
 ### Types of Tests (Currently TBD total for the Certification)
-- **Essential**: 20 total
+- **Essential**: 19 total
 - **Normal**: TBD total
 - **Bonus**: TBD total
 
-### The first level of certification requires the passing of 15 of the 20 total essential tests.
+### The first level of certification requires the passing of 15 of the 19 total essential tests.
 
 ### The List of Essential Tests are:
 1. [latest_tag](#latest-tag)
@@ -25,16 +25,15 @@ To learn why these tests were written, see the [RATIONALE.md](https://github.com
 8. [volume_hostpath_not_found](#Volume-hostpath-not-found)
 9. [liveness](#helm-chart-liveness)
 10. [readiness](#helm-chart-readiness)
-11. [pod_dns_error](#Pod-DNS-error)
-12. [log_output](#use-stdoutstderr-for-logs)
-13. [container_sock_mounts](#container-socket-mounts)
-14. [privileged_containers](#privileged-containers-kubescape)
-15. [non_root_containers](#non-root-containers)
-16. [resource_policies](#resource-policies)
-17. [hostpath_mounts](#hostpath-mounts)
-18. [hostport_not_used](#hostport-not-used)
-19. [hardcoded_ip_addresses_in_k8s_runtime_configuration](#hardcoded-ip-addresses-in-k8s-runtime-configuration)
-20. [increase_decrease_capacity](#increase-decrease-capacity)
+11. [log_output](#use-stdoutstderr-for-logs)
+12. [container_sock_mounts](#container-socket-mounts)
+13. [privileged_containers](#privileged-containers-kubescape)
+14. [non_root_containers](#non-root-containers)
+15. [resource_policies](#resource-policies)
+16. [hostpath_mounts](#hostpath-mounts)
+17. [hostport_not_used](#hostport-not-used)
+18. [hardcoded_ip_addresses_in_k8s_runtime_configuration](#hardcoded-ip-addresses-in-k8s-runtime-configuration)
+19. [increase_decrease_capacity](#increase-decrease-capacity)
 
 
 List of Workload Tests
@@ -453,9 +452,3 @@ Read more at [ARMO-C0045](https://bit.ly/3EvltIL)
 - Expectation: Checks for K8s version and if immutable configmaps are enabled.
 
 **What's tested:** TBD
-
-## [Pod DNS error](https://github.com/cnti-testcatalog/testsuite/blob/v0.46.0/src/tasks/workload/reliability.cr#L700)
-- Added to CNTi Certification in v2.0-beta
-- Expectation: Test if the CNF crashes when pod dns error occurs
-
-**What's tested:** The [pod-dns error experiment](https://litmuschaos.github.io/litmus/experiments/categories/pods/pod-dns-error/) injects chaos to disrupt DNS resolution in kubernetes pods and causes loss of access to services by blocking DNS resolution of hostnames/domains.
