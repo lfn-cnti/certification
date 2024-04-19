@@ -30,7 +30,7 @@ Kind is one option tested and supported by the CNTi Test Catalog.  Follow the [k
 ## Running
 The standard tool for running these tests is the [CNTi Test Catalog](https://github.com/cnti-testcatalog/testsuite). 
 
-1. Download the [certification binary release](https://github.com/cnti-testcatalog/testsuite/releases/tag/v1.0.0) of the test suite
+1. Download the [certification binary release](https://github.com/cnti-testcatalog/testsuite/releases/tag/v1.1.0) of the test suite
 1. Run setup to prepare the cnf-testsuite: `cnf-testsuite setup`
 3. Create a configuration file for testing your CNF
     1. Review the [CNF_TESTSUITE_YML_USAGE.md](https://github.com/cnti-testcatalog/testsuite/blob/main/CNF_TESTSUITE_YML_USAGE.md) document on formatting and other requirements.
@@ -41,7 +41,7 @@ The standard tool for running these tests is the [CNTi Test Catalog](https://git
 The results file will be saved to: results/cnf-testsuite-results-YEAR-MMDD-HHMMSS-NNN.yml
 
 Example:
-- Test results have been saved to results/cnf-testsuite-results-2022-0412-201220-225.yml
+- Test results have been saved to results/cnf-testsuite-results-2024-0419-201220-225.yml
 
 NOTE: The results file and the config file are required in the submission results.
 
