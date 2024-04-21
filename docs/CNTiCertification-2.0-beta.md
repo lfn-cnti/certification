@@ -9,8 +9,8 @@ To learn why these tests were written, see the [RATIONALE.md](https://github.com
 
 ### Types of Tests (Currently TBD total for the Certification)
 - **Essential**: 19 total
-- **Normal**: TBD total
-- **Bonus**: TBD total
+- **Normal**: 23 total
+- **Bonus**: 17 total
 
 ### The first level of certification requires the passing of 15 of the 19 total essential tests.
 
