@@ -1,0 +1,4 @@
+helm_directory: external-dns
+release_name: external-dns
+helm_install_namespace: external-dns
+

@@ -1,0 +1,8 @@
+vendor: CNTi working group
+name: External DNS
+version: 1.0
+website_url: https://lfnetworking.org/cloud-native-telecom-initiative/
+documentation_url: https://lfnetworking.org/cloud-native-telecom-initiative/ 
+product_logo_url:
+type: DNS
+description: Example for LFN D&TF CNTi
