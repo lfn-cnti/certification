@@ -111,7 +111,7 @@ description: "The Yoyodyne Turbo DHCP-Proxy is a superb DHCP proxy
 ## Certification Review
 An approved reviewer will comment on and/or approve your pull request, following [this process](https://github.com/lfn-cnti/certification/blob/main/reviewing.md). If you don't see a response within 5 business days, please send an email to lfn-cnti@lfnetworking.org.
 
-Reviews of certification pull requests are conducted by approved CNTi reviewers. Approved reviewers include CNTi co-chairs, project maintainers, and community members that have been selected by the community or co-chairs.  A list of approved reviewers are maintained in ([this file ](https://github.com/lfn-cnti/certification/blob/main/CertificationReviewers.md)).  
+Reviews of a CNTi certification pull requests are to be conducted by at least 2 approved CNTi reviewers and they must not be employed by the same company. Approved CNTi reviewers are selected by CNTi co-chairs.  A list of approved reviewers is maintained in ([this file ](https://github.com/lfn-cnti/certification/blob/main/CertificationReviewers.md)).  
 
 ## Issues
 If you have problems self-certifying that you feel is due to an issue with the CNTi Certification program (and not just your own implementation), you can file an issue in this repository. Questions and comments can also be sent via email to lfn-cnti@lfnetworking.org.
