@@ -4,7 +4,7 @@
 For [members](https://lfnetworking.org/about/members/) of LF Networking (LFN), there is no charge for certification. There is also no charge for non-profit organizations. For commercial organizations that wish to certify but don't want to become a LFN member, the fee is the same as [joining](https://lfnetworking.org/join/) the LFN.
 
 ## Is a participation form required per company or per product?
-Per product. Each separate product (i.e., different product name) from your company requires a different [participation form](https://github.com/lfn-cnti/certification/blob/main/Certified_CNF_Form.md). Submit a form to lfn-cnti@lfnetworking.org or another method made available by The Linux Foundation.
+Per product. Each separate product (i.e., different product name) from your company requires a different [participation form](https://github.com/lfn-cnti/certification/blob/main/Certified_CNTi_Form.md). Submit a form to lfn-cnti@lfnetworking.org or another method made available by The Linux Foundation.
 
 ## How is CNTI Certification different from other conformance efforts?
 While many network certifications test Kubernetes platform properties and Cloud Native Network Function (CNF) connectivity, LFN’s CNTI Certification Program gives insights into a CNF's installability, interoperability, and resilience. The certification also promotes workload self-healing as a highly desired, cloud native property.
