@@ -1,6 +1,11 @@
 # How to submit CNTi Certification results
 
-## The tests
+## Participation Prereqs
+
+- Review the CNTi Participation Terms and Conditions (https://github.com/lfn-cnti/certification/blob/main/Certified_CNF_Terms.md)
+- Complete, sign, and submit the CNTi Participation Form (https://github.com/lfn-cnti/certification/blob/main/Certified_CNTi_Form.md)
+
+## The Certification Tests
 
 There are [## tests- TBD: ## TO BE UPDATED](docs/CNTiCertification-2.0-beta.md) included in the CNTi Certification v2.0-beta. These tests are classified as Essential, Normal, or Bonus. They are also organized into 7 categories: 
 - Compatibility, Installability, and Upgradability
@@ -11,7 +16,7 @@ There are [## tests- TBD: ## TO BE UPDATED](docs/CNTiCertification-2.0-beta.md) 
 - Observability
 - Reliability, Resilience and Availability
 
-## Prereqs
+## Technical Prereqs
 
 **K8s Multi-node Cluster**
 - [Access](https://kubernetes.io/docs/tasks/access-application-cluster/access-cluster/) to a working [Certified K8s](https://cncf.io/ck) multi-node cluster using the [containerd](https://containerd.io/) runtime
