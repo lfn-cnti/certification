@@ -2,7 +2,7 @@
 
 ## Participation Prereqs
 
-- Review the CNTi Participation Terms and Conditions (https://github.com/lfn-cnti/certification/blob/main/Certified_CNF_Terms.md)
+- Review the CNTi Participation Terms and Conditions (https://github.com/lfn-cnti/certification/blob/main/Certified_CNTi_Terms.md)
 - Complete, sign, and submit the CNTi Participation Form (https://github.com/lfn-cnti/certification/blob/main/Certified_CNTi_Form.md)
 
 ## The Certification Tests
