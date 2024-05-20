@@ -1,6 +1,6 @@
 # How to submit CNTi Certification results
 
-## Participation Prereqs
+## Participation Prerequisites
 
 - Review the CNTi Participation Terms and Conditions (https://github.com/lfn-cnti/certification/blob/main/Certified_CNTi_Terms.md)
 - Complete, sign, and submit the CNTi Participation Form (https://github.com/lfn-cnti/certification/blob/main/Certified_CNTi_Form.md)
@@ -16,7 +16,7 @@ There are [## tests- TBD: ## TO BE UPDATED](docs/CNTiCertification-2.0-beta.md) 
 - Observability
 - Reliability, Resilience and Availability
 
-## Technical Prereqs
+## Technical Prerequisites
 
 **K8s Multi-node Cluster**
 - [Access](https://kubernetes.io/docs/tasks/access-application-cluster/access-cluster/) to a working [Certified K8s](https://cncf.io/ck) multi-node cluster using the [containerd](https://containerd.io/) runtime
