@@ -22,5 +22,5 @@ If the submission doesn't meet all policy requirements, reply with a message ind
 1. Update the CNTI Certifications spreadsheet to reflect the vendor's certified offering.
 2. Add the vendor's information to the [LFN-CNTI Landing Page](https://lfnetworking.org/cloud-native-telecom-initiative).
 3. Add a comment saying "This product is now "CNTI Certified."
-4. Merge the PR (eg. Squad and merge).
+4. Merge the PR (eg. Squash and merge).
 5. Close the PR.
