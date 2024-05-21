@@ -1,6 +1,11 @@
 # How to submit CNTi Certification results
 
-## The tests
+## Participation Prerequisites
+
+- Review the CNTi Participation Terms and Conditions (https://github.com/lfn-cnti/certification/blob/main/Certified_CNTi_Terms.md)
+- Complete, sign, and submit the CNTi Participation Form (https://github.com/lfn-cnti/certification/blob/main/Certified_CNTi_Form.md)
+
+## The Certification Tests
 
 There are [## tests- TBD: ## TO BE UPDATED](docs/CNTiCertification-2.0-beta.md) included in the CNTi Certification v2.0-beta. These tests are classified as Essential, Normal, or Bonus. They are also organized into 7 categories: 
 - Compatibility, Installability, and Upgradability
@@ -11,7 +16,7 @@ There are [## tests- TBD: ## TO BE UPDATED](docs/CNTiCertification-2.0-beta.md) 
 - Observability
 - Reliability, Resilience and Availability
 
-## Prereqs
+## Technical Prerequisites
 
 **K8s Multi-node Cluster**
 - [Access](https://kubernetes.io/docs/tasks/access-application-cluster/access-cluster/) to a working [Certified K8s](https://cncf.io/ck) multi-node cluster using the [containerd](https://containerd.io/) runtime
@@ -109,9 +114,14 @@ description: "The Yoyodyne Turbo DHCP-Proxy is a superb DHCP proxy
 ```
 
 ## Certification Review
-An approved reviewer will comment on and/or approve your pull request, following [this process](https://github.com/lfn-cnti/certification/blob/main/reviewing.md). If you don't see a response within 5 business days, please send an email to lfn-cnti@lfnetworking.org.
+Reviews of certification pull requests are conducted by approved reviewers. Approved reviewers are selected by the CNTi TSC and maintained in ([this file](https://github.com/lfn-cnti/certification/blob/main/CertificationReviewers.md)).
 
-Reviews of a CNTi certification pull requests are to be conducted by at least 2 approved CNTi reviewers and they must not be employed by the same company. Approved CNTi reviewers are selected by CNTi co-chairs.  A list of approved reviewers is maintained in ([this file ](https://github.com/lfn-cnti/certification/blob/main/CertificationReviewers.md)).  
+A minimum of 2 approved reviewers, who are not from Related Companies, will comment on and/or approve your pull request, following [this process](https://github.com/lfn-cnti/certification/blob/main/reviewing.md). 
+
+Related Companies are defined as any entity (Company-A) which controls or is controlled by another entity (Company-B) or which, together, is under the common control of a third party (Company-C), in each case where such control results from ownership, either directly or indirectly, of more than fifty percent of the voting securities or membership interests of the entity in question; and “Related Companies” are entities that are each a Related Company as described above.
+
+If you don't see a response within 5 business days, please send an email to lfn-cnti@lfnetworking.org.
+
 
 ## Issues
 If you have problems self-certifying that you feel is due to an issue with the CNTi Certification program (and not just your own implementation), you can file an issue in this repository. Questions and comments can also be sent via email to lfn-cnti@lfnetworking.org.
