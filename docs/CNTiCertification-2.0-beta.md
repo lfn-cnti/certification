@@ -5,7 +5,7 @@ This document provides a summary of the tests included in the Cloud Native Telec
 
 To learn how to run these tests, see the "Instructions." For further details see the [USAGE guide](https://github.com/cnti-testcatalog/testsuite/blob/main/USAGE.md).
 
-To learn why these tests were written, see the [RATIONALE.md](https://github.com/cnti-testcatalog/testsuite/blob/main/RATIONALE.md).
+To learn why these tests were written, see the [TEST_DOCUMENTATION.md](https://github.com/cnti-testcatalog/testsuite/blob/main/docs/TEST_DOCUMENTATION.md).
 
 ### Types of Tests (Currently TBD total for the Certification)
 - **Essential**: 19 total
@@ -22,14 +22,14 @@ To learn why these tests were written, see the [RATIONALE.md](https://github.com
 5. [specialized_init_system](#specialized-init-system)
 6. [zombie_handled](#zombie-handled)
 7. [node_drain](#node-drain)
-8. [volume_hostpath_not_found](#Volume-hostpath-not-found)
-9. [liveness](#helm-chart-liveness)
-10. [readiness](#helm-chart-readiness)
-11. [log_output](#use-stdoutstderr-for-logs)
-12. [container_sock_mounts](#container-socket-mounts)
-13. [privileged_containers](#privileged-containers-kubescape)
-14. [non_root_containers](#non-root-containers)
-15. [resource_policies](#resource-policies)
+8. [liveness](#helm-chart-liveness)
+9. [readiness](#helm-chart-readiness)
+10. [log_output](#use-stdoutstderr-for-logs)
+11. [container_sock_mounts](#container-socket-mounts)
+12. [privileged_containers](#privileged-containers-kubescape)
+13. [non_root_containers](#non-root-containers)
+14. [cpu_limits](#cpu-limits)
+15. [memory_limits](#memory-limits)
 16. [hostpath_mounts](#hostpath-mounts)
 17. [hostport_not_used](#hostport-not-used)
 18. [hardcoded_ip_addresses_in_k8s_runtime_configuration](#hardcoded-ip-addresses-in-k8s-runtime-configuration)
@@ -159,14 +159,6 @@ You can read more about horizonal pod autoscaling to create replicas [here](http
 - Expectation: Elastic persistent volumes should be configured for statefulness.
 
 **What's tested:** This checks for elastic persistent volumes in use by the CNF.
-
-## [Volume hostpath not found](https://github.com/cnti-testcatalog/testsuite/blob/v0.46.0/src/tasks/workload/state.cr#L501)
-- Added to CNTi Certification in v2.0-beta
-- Expectation: Volume host path configurations should not be used.
-- ID: volume_hostpath_not_found
-
-**What's tested:** This tests if volume host paths are configured and used by the CNF.
-
 
 # Reliability, Resilience and Availability Category
 
@@ -377,12 +369,19 @@ This test checks against a [blacklist of insecure capabilities](https://github.c
 
 **What's tested:** Checks if security services are being used to harden the application. Read more at [ARMO-C0055](https://bit.ly/2ZKOjpJ)
 
-## [Resource policies](https://github.com/cncf/cnf-testsuite/blob/v0.27.0/src/tasks/workload/security.cr#L314)
-- Added to CNF Certification in v1.0
-- Expectation: Containers should have resource limits defined
+## [CPU Limits](https://github.com/cnti-testcatalog/testsuite/blob/v1.3.0/src/tasks/workload/security.cr#L308)
+- Added to CNF Certification in v2.0-beta
+- Expectation: Containers should have CPU limits defined
 
 **What's tested:**
-Check for each container if there is a ‘limits’ field defined. Check for each limitrange/resourcequota if there is a max/hard field defined, respectively. Read more at [ARMO-C0009](https://bit.ly/3Ezxkps).
+Check for each container if there is a ‘limits.cpu’ field defined. Check for each limitrange/resourcequota if there is a max/hard field defined, respectively. Read more at [ARMO-C0270](https://hub.armo.cloud/docs/c-0270).
+
+## [Memory Limits](https://github.com/cnti-testcatalog/testsuite/blob/v1.3.0/src/tasks/workload/security.cr#L329)
+- Added to CNF Certification in v2.0-beta
+- Expectation: Containers should have memory limits defined
+
+**What's tested:**
+Check for each container if there is a ‘limits.memory’ field defined. Check for each limitrange/resourcequota if there is a max/hard field defined, respectively. Read more at [ARMO-C0271](https://hub.armo.cloud/docs/c-0271).
 
 
 ## [Immutable File Systems](https://github.com/cncf/cnf-testsuite/blob/v0.27.0/src/tasks/workload/security.cr#L441)
