@@ -35,7 +35,7 @@ Kind is one option tested and supported by the CNTi Test Catalog.  Follow the [k
 ## Running
 The standard tool for running these tests is the [CNTi Test Catalog](https://github.com/cnti-testcatalog/testsuite). 
 
-1. Download the [certification binary release](https://github.com/cnti-testcatalog/testsuite/releases/tag/v1.1.0) of the test suite
+1. Download the [certification binary release](https://github.com/cnti-testcatalog/testsuite/releases/tag/v1.3.0) of the test suite
 1. Run setup to prepare the cnf-testsuite: `cnf-testsuite setup`
 3. Create a configuration file for testing your CNF
     1. Review the [CNF_TESTSUITE_YML_USAGE.md](https://github.com/cnti-testcatalog/testsuite/blob/main/CNF_TESTSUITE_YML_USAGE.md) document on formatting and other requirements.
