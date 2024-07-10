@@ -7,7 +7,7 @@
 This document sets forth the terms and conditions that apply to the LF Networking’s CNTi Certification Program and use of the CNTi Certified Marks.
 In this document, these terms have the following meanings:
 
-* **"CNTi Certified Marks"** means (1) the mark "CNTi Certified" and (2) all other logos and marks described in the Branding Guide, as defined herein;
+* **"CNTi Certified Marks"** means (1) the mark "CNTi Certified" and (2) all other logos and marks described in the [Branding Guide](https://github.com/lfn-cnti/artwork/blob/main/CNTI_Branding_Guideline_Rel1.pdf), as defined herein;
 * **"CNF Word Mark"** means the trademark "CNF";
 * **"Certification Program"** means the program described in this document;
 * **"Participant"** means a company or other entity that is permitted to use one or more of the CNTi Certified Marks in association with their goods and services, pursuant to the Certification Program; and
@@ -18,7 +18,7 @@ In this document, these terms have the following meanings:
 Together with these terms and conditions, the following documents are part of the Certification Program, each as updated from time to time:
 
 - "**Certification Guide**": the certification testing instructions and requirements for the Certification Program, available at https://github.com/lfn-cnti/certification/blob/main/instructions.md;
-- "**Branding Guide**": the CNTi Certified Brand Guidelines, available at TBD;
+- "**Branding Guide**": the CNTi Certified Brand Guidelines, available at https://github.com/lfn-cnti/artwork/blob/main/CNTI_Branding_Guideline_Rel1.pdf;
 - "**LF Trademark Usage Guidelines**": The Linux Foundation Trademark Usage Guidelines, available at https://www.linuxfoundation.org/trademark-usage; and
 - "**Participation Form**": the CNTi Certification Participation Form, available at https://github.com/lfn-cnti/certification/blob/main/Certified_CNTi_Form.md.
 
@@ -69,7 +69,7 @@ All use of the CNTi Certified Marks is subject to the LF Trademark Usage Guideli
 
 Additionally, the following specific rules also apply to use of the CNTi Certified Marks:
 
-- **Do** follow the requirements set forth in the Branding Guide when using the CNTi Certified Marks.
+- **Do** follow the requirements set forth in the [Branding Guide](https://github.com/lfn-cnti/artwork/blob/main/CNTI_Branding_Guideline_Rel1.pdf) when using the CNTi Certified Marks.
 
 
 - **Do** specify the version of the CNTi Certification Program for which a Qualifying Offering has been self-tested, in a location near the Participant’s use of the CNTi Certified Marks.
