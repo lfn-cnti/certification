@@ -2,7 +2,7 @@
 
 (Available in [PDF](https://github.com/lfn-cnti/certification/blob/main/Certified_CNTi_Terms.pdf).)
 
-#### Last updated: March 5, 2024
+#### Last updated: July 12, 2024
 
 This document sets forth the terms and conditions that apply to the LF Networking’s CNTi Certification Program and use of the CNTi Certified Marks.
 In this document, these terms have the following meanings:
