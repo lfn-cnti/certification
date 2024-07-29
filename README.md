@@ -28,7 +28,7 @@ The [CNTi Charter](https://github.com/lfn-cnti/cnti/blob/c93c0172376ac5ccb1e50f3
 
 ## Get Involved
 
-Learn more on how to get involved by visiting the [CNTi Certification Wiki](https://wiki.lfnetworking.org/x/IAAxBw)
+Learn more on how to get involved by visiting the [CNTi Certification Wiki](https://wiki.lfnetworking.org/x/IAAxBw) and reading about ways to [contribute](https://github.com/lfn-cnti/cnti/blob/main/CONTRIBUTING.md) to CNTi.
 
 ## CNTi and Industry Events
 
