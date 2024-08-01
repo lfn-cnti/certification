@@ -7,7 +7,7 @@
 
 ## The Certification Tests
 
-There are [59 tests](docs/CNTiCertification-2.0-beta.md) included in the CNTi Certification v2.0-beta. These tests are classified as Essential, Normal, or Bonus. They are also organized into 7 categories: 
+There are [19 tests](docs/CNTiCertification-2.0-beta.md) included in the CNTi Certification v2.0-beta. These tests are classified as Essential and are a subset of the total tests that are available for use in the [CNTi Test Catalog](https://github.com/cnti-testcatalog/testsuite). Tests are organized into 7 categories: 
 - Compatibility, Installability, and Upgradability
 - Configuration
 - Security
