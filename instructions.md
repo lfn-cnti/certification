@@ -7,7 +7,7 @@
 
 ## The Certification Tests
 
-There are [19 tests](docs/CNTiCertification-2.0-beta.md) included in the CNTi Certification v2.0-beta. These tests are classified as Essential and are a subset of the total tests that are available for use in the [CNTi Test Catalog](https://github.com/cnti-testcatalog/testsuite). Tests are organized into 7 categories: 
+There are [19 tests](docs/CNTiCertification-2.0-beta.md) included in the CNTi Certification v2.0-beta. These tests are classified as Essential and are a subset of the total tests that are available for use in the [CNTi Test Catalog](https://github.com/lfn-cnti/testsuite). Tests are organized into 7 categories: 
 - Compatibility, Installability, and Upgradability
 - Configuration
 - Security
@@ -29,16 +29,16 @@ There are [19 tests](docs/CNTiCertification-2.0-beta.md) included in the CNTi Ce
 
 If you do not have a K8s cluster running, you can deploy your own cluster with [various tools](https://kubernetes.io/docs/setup/) or use a [public cloud or turnkey solution](https://kubernetes.io/docs/setup/production-environment/turnkey-solutions/)
 
-Kind is one option tested and supported by the CNTi Test Catalog.  Follow the [kind install](https://github.com/cnti-testcatalog/testsuite/blob/main/KIND-INSTALL.md) instructions to setup a cluster in [kind](https://kind.sigs.k8s.io/)
+Kind is one option tested and supported by the CNTi Test Catalog.  Follow the [kind install](https://github.com/lfn-cnti/testsuite/blob/main/KIND-INSTALL.md) instructions to setup a cluster in [kind](https://kind.sigs.k8s.io/)
 
 
 ## Running
-The standard tool for running these tests is the [CNTi Test Catalog](https://github.com/cnti-testcatalog/testsuite). 
+The standard tool for running these tests is the [CNTi Test Catalog](https://github.com/lfn-cnti/testsuite). 
 
-1. Download the [certification binary release](https://github.com/cnti-testcatalog/testsuite/releases/latest) of the test suite
+1. Download the [certification binary release](https://github.com/lfn-cnti/testsuite/releases/latest) of the test suite
 1. Run setup to prepare the cnf-testsuite: `cnf-testsuite setup`
 3. Create a configuration file for testing your CNF
-    1. Review the [CNF_TESTSUITE_YML_USAGE.md](https://github.com/cnti-testcatalog/testsuite/blob/main/CNF_TESTSUITE_YML_USAGE.md) document on formatting and other requirements.
+    1. Review the [CNF_TESTSUITE_YML_USAGE.md](https://github.com/lfn-cnti/testsuite/blob/main/CNF_TESTSUITE_YML_USAGE.md) document on formatting and other requirements.
     1. Create a cnf-testsuite.yml with the required information
 4. Initialize the test suite for using the CNF: `cnf-testsuite cnf_setup cnf-config=./cnf-testsuite.yml`
 5. Run the certification tests: `cnf-testsuite cert`
@@ -51,7 +51,7 @@ Example:
 NOTE: The results file and the config file are required in the submission results.
 
 
-<!--1. Pull down an example CNF configuration to try: curl -o cnf-testsuite.yml https://raw.githubusercontent.com/cnti-testcatalog/testsuite/main/example-cnfs/coredns/cnf-testsuite.yml-->
+<!--1. Pull down an example CNF configuration to try: curl -o cnf-testsuite.yml https://raw.githubusercontent.com/lfn-cnti/testsuite/main/example-cnfs/coredns/cnf-testsuite.yml-->
 
 
 ## Uploading
