@@ -1,0 +1,8 @@
+vendor: Ella Networks Inc.
+name: Ella Core
+version: "v1.21.0-pr.1907+77823894"
+website_url: https://ellanetworks.com/
+repo_url: https://github.com/ellanetworks/core
+documentation_url: https://docs.ellanetworks.com/core/
+type: Mobile core network
+description: Ella Core is a 4G and 5G mobile core for private networks.

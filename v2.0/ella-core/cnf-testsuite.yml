@@ -1,0 +1,14 @@
+config_version: "v2"
+deployments:
+  helm_dirs:
+    - name: ella-pr
+      helm_directory: ./ella-core
+      namespace: ella-pr1907-pod
+      helm_values: >-
+        -f ./test-values.yaml
+        --set image=ella-core:pr1907-d2483a0
+        --set kubernetesHardening.enabled=true
+        --set network.type=pod
+        --set controller.enabled=false
+        --set troubleshooting.enabled=false
+        --set resources.limits.cpu=2
