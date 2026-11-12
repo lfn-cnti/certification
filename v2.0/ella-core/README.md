@@ -6,12 +6,8 @@ image, revision `f6eae2c31518cbe214c7baaf0cdacc628fd54055`. The three failed
 checks were non-root execution, zombie reaping, and dedicated init.
 [Upstream release](https://github.com/ellanetworks/core/releases/tag/v1.22.0)
 
-Before submission, confirm the offering and version with Ella Networks and
-that its signed participation form is on file. The v2.0-beta test list matches
-the 19 checks in the attached result. The [submission instructions](../../instructions.md)
-link to the latest Test Suite release, while the [review guide](../../reviewing.md)
-calls for a major/minor match. Confirm that v2.4.1 evidence is acceptable for
-v2.0-beta review.
+The attached result covers all 19 essential checks in the
+[CNTi v2.0-beta test list](../../docs/CNTiCertification-2.0-beta.md).
 
 ## Reproduce the run
 
