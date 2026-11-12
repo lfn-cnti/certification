@@ -1,12 +1,12 @@
 config_version: "v2"
 deployments:
   helm_dirs:
-    - name: ella-pr
+    - name: ella-v122
       helm_directory: ./ella-core
-      namespace: ella-pr1907-pod
+      namespace: ella-cnti-v122
       helm_values: >-
         -f ./test-values.yaml
-        --set image=ella-core:pr1907-d2483a0
+        --set image=ghcr.io/ellanetworks/ella-core:v1.22.0
         --set kubernetesHardening.enabled=true
         --set network.type=pod
         --set controller.enabled=false

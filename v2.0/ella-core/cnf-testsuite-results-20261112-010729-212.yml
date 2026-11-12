@@ -51,243 +51,245 @@ items:
   message: 'node_drain passed: 1 node(s) drained, 1 workload(s) rescheduled'
   type: essential
   points: 100
-  start_time: "2026-11-10T15:54:18.036972690Z"
-  end_time: "2026-11-10T15:54:51.481311723Z"
-  task_runtime: 33.444339033
+  start_time: "2026-11-12T01:07:29.463578835Z"
+  end_time: "2026-11-12T01:08:18.580438338Z"
+  task_runtime: 49.116859503
   details:
-  - 'Job/ella-pr-core-bootstrap-1 in ella-pr1907-pod: a Job cannot be drained and
+  - 'Job/ella-v122-core-bootstrap-1 in ella-cnti-v122: a Job cannot be drained and
     rescheduled (a bare Pod is deleted for good, DaemonSet pods stay, a Job''s pod
     runs to completion), node_drain is not applicable to it'
-  - 'Node ella-cnti-vm-worker: 1 pod(s) of 1 workload(s) evicted in 10 s'
-  - 'StatefulSet/ella-pr-core in ella-pr1907-pod: Ready again on another node within
-    17 s of eviction'
+  - 'Node ella-cnti-vm-worker: 1 pod(s) of 1 workload(s) evicted in 13 s'
+  - 'StatefulSet/ella-v122-core in ella-cnti-v122: Ready again on another node within
+    33 s of eviction'
 - name: selinux_options
   status: passed
   message: Pods do not set seLinuxOptions
   type: essential
   points: 100
-  start_time: "2026-11-10T15:54:51.544240274Z"
-  end_time: "2026-11-10T15:54:54.907081953Z"
-  task_runtime: 3.3628416789999998
+  start_time: "2026-11-12T01:08:18.630432243Z"
+  end_time: "2026-11-12T01:08:22.722630550Z"
+  task_runtime: 4.092198307
 - name: container_sock_mounts
   status: passed
   message: Container engine daemon sockets are not mounted as volumes
   type: essential
   points: 100
-  start_time: "2026-11-10T15:54:54.918193527Z"
-  end_time: "2026-11-10T15:54:56.617979127Z"
-  task_runtime: 1.6997856
+  start_time: "2026-11-12T01:08:22.735779306Z"
+  end_time: "2026-11-12T01:08:24.829251215Z"
+  task_runtime: 2.093471909
 - name: privileged_containers
   status: passed
   message: No privileged containers
   type: essential
   points: 100
-  start_time: "2026-11-10T15:54:56.630759270Z"
-  end_time: "2026-11-10T15:54:56.891439121Z"
-  task_runtime: 0.260679851
+  start_time: "2026-11-12T01:08:24.875557091Z"
+  end_time: "2026-11-12T01:08:25.265324457Z"
+  task_runtime: 0.389767366
 - name: cpu_limits
   status: passed
   message: Containers have CPU limits set
   type: essential
   points: 100
-  start_time: "2026-11-10T15:54:59.720614727Z"
-  end_time: "2026-11-10T15:54:59.726208888Z"
-  task_runtime: 0.005594161
+  start_time: "2026-11-12T01:08:28.567825798Z"
+  end_time: "2026-11-12T01:08:28.574555459Z"
+  task_runtime: 0.006729661
 - name: memory_limits
   status: passed
   message: Containers have memory limits set
   type: essential
   points: 100
-  start_time: "2026-11-10T15:54:59.758900644Z"
-  end_time: "2026-11-10T15:54:59.764006174Z"
-  task_runtime: 0.00510553
+  start_time: "2026-11-12T01:08:28.587777189Z"
+  end_time: "2026-11-12T01:08:28.592803318Z"
+  task_runtime: 0.005026129
 - name: non_root_containers
   status: failed
   message: Found containers running as root user or with root group membership
   type: essential
   points: 0
-  start_time: "2026-11-10T15:54:59.778388819Z"
-  end_time: "2026-11-10T15:55:02.341132880Z"
-  task_runtime: 2.562744061
+  start_time: "2026-11-12T01:08:28.619881930Z"
+  end_time: "2026-11-12T01:08:32.558074858Z"
+  task_runtime: 3.938192928
   remediation:
   - If your application does not need root privileges, make sure to define runAsNonRoot
     as true or explicitly set the runAsUser using ID 1000 or higher under the PodSecurityContext
     or container securityContext. In addition, set an explicit value for runAsGroup
     using ID 1000 or higher.
   impacted_resources:
-  - kind: Job
-    name: ella-pr-core-bootstrap-1
-    namespace: ella-pr1907-pod
-    container: bootstrap
-    reason: spec.template.spec.containers[0].securityContext.runAsNonRoot should be
-      true
-  - kind: Job
-    name: ella-pr-core-bootstrap-1
-    namespace: ella-pr1907-pod
-    container: bootstrap
-    reason: spec.template.spec.containers[0].securityContext.runAsGroup should be
-      1000
   - kind: StatefulSet
-    name: ella-pr-core
-    namespace: ella-pr1907-pod
+    name: ella-v122-core
+    namespace: ella-cnti-v122
     container: config
     reason: spec.template.spec.initContainers[0].securityContext.runAsNonRoot should
       be true
   - kind: StatefulSet
-    name: ella-pr-core
-    namespace: ella-pr1907-pod
+    name: ella-v122-core
+    namespace: ella-cnti-v122
     container: config
     reason: spec.template.spec.initContainers[0].securityContext.runAsGroup should
       be 1000
   - kind: StatefulSet
-    name: ella-pr-core
-    namespace: ella-pr1907-pod
+    name: ella-v122-core
+    namespace: ella-cnti-v122
     container: core
     reason: runs as uid 0 gid 0; spec.template.spec.containers[0].securityContext.runAsNonRoot
       should be true
   - kind: StatefulSet
-    name: ella-pr-core
-    namespace: ella-pr1907-pod
+    name: ella-v122-core
+    namespace: ella-cnti-v122
     container: core
     reason: runs as uid 0 gid 0; spec.template.spec.containers[0].securityContext.runAsGroup
       should be 1000
-  diagnostics: cnti-testsuite-results-20261110-155417-746/diagnostics/non_root_containers.json
+  - kind: Job
+    name: ella-v122-core-bootstrap-1
+    namespace: ella-cnti-v122
+    container: bootstrap
+    reason: spec.template.spec.containers[0].securityContext.runAsNonRoot should be
+      true
+  - kind: Job
+    name: ella-v122-core-bootstrap-1
+    namespace: ella-cnti-v122
+    container: bootstrap
+    reason: spec.template.spec.containers[0].securityContext.runAsGroup should be
+      1000
+  diagnostics: cnti-testsuite-results-20261112-010729-212/diagnostics/non_root_containers.json
 - name: hostpath_mounts
   status: passed
   message: Containers do not have hostPath mounts
   type: essential
   points: 100
-  start_time: "2026-11-10T15:55:03.882410457Z"
-  end_time: "2026-11-10T15:55:06.405390004Z"
-  task_runtime: 2.5229795470000003
+  start_time: "2026-11-12T01:08:34.394088140Z"
+  end_time: "2026-11-12T01:08:36.852324101Z"
+  task_runtime: 2.458235961
 - name: latest_tag
   status: passed
   message: Container images are not using the latest tag
   type: essential
   points: 100
-  start_time: "2026-11-10T15:55:06.449562468Z"
-  end_time: "2026-11-10T15:55:08.043263456Z"
-  task_runtime: 1.5937009880000002
+  start_time: "2026-11-12T01:08:36.895059586Z"
+  end_time: "2026-11-12T01:08:38.873410106Z"
+  task_runtime: 1.97835052
 - name: hostport_not_used
   status: passed
   message: HostPort is not used
   type: essential
   points: 100
-  start_time: "2026-11-10T15:55:08.063083899Z"
-  end_time: "2026-11-10T15:55:08.260497092Z"
-  task_runtime: 0.197413193
+  start_time: "2026-11-12T01:08:38.891832418Z"
+  end_time: "2026-11-12T01:08:39.151506229Z"
+  task_runtime: 0.259673811
 - name: hardcoded_ip_addresses_in_k8s_runtime_configuration
   status: passed
   message: No hard-coded IP addresses found in the runtime K8s configuration
   type: essential
   points: 100
-  start_time: "2026-11-10T15:55:08.342483352Z"
-  end_time: "2026-11-10T15:55:08.345255487Z"
-  task_runtime: 0.002772135
+  start_time: "2026-11-12T01:08:39.178537019Z"
+  end_time: "2026-11-12T01:08:39.180404288Z"
+  task_runtime: 0.001867269
 - name: log_output
   status: passed
   message: Resources output logs to stdout and stderr
   type: essential
   points: 100
-  start_time: "2026-11-10T15:55:08.403719567Z"
-  end_time: "2026-11-10T15:55:09.250654548Z"
-  task_runtime: 0.846934981
+  start_time: "2026-11-12T01:08:39.230811174Z"
+  end_time: "2026-11-12T01:08:39.957971968Z"
+  task_runtime: 0.727160794
   details:
-  - 'StatefulSet/ella-pr-core in ella-pr1907-pod: logs from ella-pr-core-0'
+  - 'StatefulSet/ella-v122-core in ella-cnti-v122: logs from ella-v122-core-0'
 - name: single_process_type
   status: passed
   message: Only one process type used
   type: essential
   points: 100
-  start_time: "2026-11-10T15:55:09.316728608Z"
-  end_time: "2026-11-10T15:55:12.320842950Z"
-  task_runtime: 3.004114342
+  start_time: "2026-11-12T01:08:40.013401051Z"
+  end_time: "2026-11-12T01:08:42.691161880Z"
+  task_runtime: 2.677760829
   details:
-  - 'StatefulSet/ella-pr-core container core: no application process besides PID 1'
+  - 'StatefulSet/ella-v122-core container core: no application process besides PID
+    1'
 - name: zombie_handled
   status: failed
   message: Zombie not handled
   type: essential
   points: 0
-  start_time: "2026-11-10T15:55:12.346967077Z"
-  end_time: "2026-11-10T15:55:41.083512059Z"
-  task_runtime: 28.736544982
+  start_time: "2026-11-12T01:08:42.764252306Z"
+  end_time: "2026-11-12T01:09:22.190060423Z"
+  task_runtime: 39.425808117
   remediation:
   - Make the PID 1 container process to handle/reap zombie processes; enable process
     namespace sharing in Kubernetes or use specialized Init system.
   impacted_resources:
   - kind: Pod
-    name: ella-pr-core-0
-    namespace: ella-pr1907-pod
+    name: ella-v122-core-0
+    namespace: ella-cnti-v122
     container: core
-    reason: 'process sleep (pid 20155, parent 19853) is a zombie: state Z (zombie)'
-  diagnostics: cnti-testsuite-results-20261110-155417-746/diagnostics/zombie_handled.json
+    reason: 'process sleep (pid 261683, parent 261367) is a zombie: state Z (zombie)'
+  diagnostics: cnti-testsuite-results-20261112-010729-212/diagnostics/zombie_handled.json
 - name: sig_term_handled
   status: passed
   message: Sig Term handled
   type: essential
   points: 100
-  start_time: "2026-11-10T15:55:42.151235303Z"
-  end_time: "2026-11-10T15:56:23.218301112Z"
-  task_runtime: 41.067065809
+  start_time: "2026-11-12T01:09:23.435469132Z"
+  end_time: "2026-11-12T01:10:02.483551633Z"
+  task_runtime: 39.048082501
   details:
-  - 'Job/ella-pr-core-bootstrap-1 in ella-pr1907-pod: a Job runs to completion, sig_term_handled
+  - 'Job/ella-v122-core-bootstrap-1 in ella-cnti-v122: a Job runs to completion, sig_term_handled
     is not applicable to it'
-  - 'Checked ella-pr-core-0/core: PID 1 20452, judged pid(s) 20452, stop signal SIGTERM,
-    grace 30s: 20452 stopped with SIGTERM; container stopped in 3.1 s (exit code 0)'
+  - 'Checked ella-v122-core-0/core: PID 1 262001, judged pid(s) 262001, stop signal
+    SIGTERM, grace 30s: 262001 stopped with SIGTERM; container stopped in 3.5 s (exit
+    code 0)'
 - name: specialized_init_system
   status: failed
   message: Containers do not use specialized init systems (ভ_ভ) ރ
   type: essential
   points: 0
-  start_time: "2026-11-10T15:56:27.411424364Z"
-  end_time: "2026-11-10T15:56:29.358785167Z"
-  task_runtime: 1.947360803
+  start_time: "2026-11-12T01:10:06.565027813Z"
+  end_time: "2026-11-12T01:10:08.888011474Z"
+  task_runtime: 2.322983661
   remediation:
   - Use init systems that are purpose-built for containers like tini, dumb-init, catatonit,
     s6-overlay, gopherd.
   impacted_resources:
   - kind: Pod
-    name: ella-pr-core-0
-    namespace: ella-pr1907-pod
+    name: ella-v122-core-0
+    namespace: ella-cnti-v122
     container: core
     reason: '''core'' as init process'
-  diagnostics: cnti-testsuite-results-20261110-155417-746/diagnostics/specialized_init_system.json
+  diagnostics: cnti-testsuite-results-20261112-010729-212/diagnostics/specialized_init_system.json
 - name: liveness
   status: passed
   message: All workload resources have at least one container with a liveness probe
   type: essential
   points: 100
-  start_time: "2026-11-10T15:56:30.768773779Z"
-  end_time: "2026-11-10T15:56:30.942573368Z"
-  task_runtime: 0.173799589
+  start_time: "2026-11-12T01:10:09.979304570Z"
+  end_time: "2026-11-12T01:10:10.664265445Z"
+  task_runtime: 0.684960875
   details:
-  - 'StatefulSet/ella-pr-core in ella-pr1907-pod: liveness probe on core'
-  - 'Job/ella-pr-core-bootstrap-1 in ella-pr1907-pod: a Job runs to completion, liveness
+  - 'StatefulSet/ella-v122-core in ella-cnti-v122: liveness probe on core'
+  - 'Job/ella-v122-core-bootstrap-1 in ella-cnti-v122: a Job runs to completion, liveness
     is not applicable to it'
 - name: readiness
   status: passed
   message: All workload resources have at least one container with a readiness probe
   type: essential
   points: 100
-  start_time: "2026-11-10T15:56:30.976918731Z"
-  end_time: "2026-11-10T15:56:31.187741409Z"
-  task_runtime: 0.210822678
+  start_time: "2026-11-12T01:10:10.697934362Z"
+  end_time: "2026-11-12T01:10:11.056625803Z"
+  task_runtime: 0.358691441
   details:
-  - 'StatefulSet/ella-pr-core in ella-pr1907-pod: readiness probe on core'
-  - 'Job/ella-pr-core-bootstrap-1 in ella-pr1907-pod: a Job runs to completion, readiness
+  - 'StatefulSet/ella-v122-core in ella-cnti-v122: readiness probe on core'
+  - 'Job/ella-v122-core-bootstrap-1 in ella-cnti-v122: a Job runs to completion, readiness
     is not applicable to it'
 - name: increase_decrease_capacity
   status: passed
   message: Replicas increased to deployed count + 2 and decreased back for 1 resource(s)
   type: essential
   points: 100
-  start_time: "2026-11-10T15:56:31.270655002Z"
-  end_time: "2026-11-10T15:57:28.259631293Z"
-  task_runtime: 56.988976291
+  start_time: "2026-11-12T01:10:11.142819978Z"
+  end_time: "2026-11-12T01:11:19.915002900Z"
+  task_runtime: 68.772182922
   details:
   - 'Restart after scaling: one pod of each of 1 workload(s) deleted at once; 1 Ready
-    again within 17 s'
+    again within 25 s'
 summary:
   total: 19
   passed: 16

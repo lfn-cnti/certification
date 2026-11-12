@@ -1,6 +1,6 @@
 vendor: Ella Networks Inc.
 name: Ella Core
-version: "v1.21.0-pr.1907+77823894"
+version: "v1.22.0"
 website_url: https://ellanetworks.com/
 repo_url: https://github.com/ellanetworks/core
 documentation_url: https://docs.ellanetworks.com/core/
